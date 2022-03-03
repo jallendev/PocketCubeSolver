@@ -73,7 +73,7 @@ namespace PocketCubeSolver
             this.Controls.Add(this.comboBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Input";
-            this.Text = "Solution";
+            this.Text = "Input";
             this.ResumeLayout(false);
             this.PerformLayout();
 

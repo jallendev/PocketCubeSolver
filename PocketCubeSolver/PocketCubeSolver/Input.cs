@@ -19,7 +19,9 @@ namespace PocketCubeSolver
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Form output = new Output();
+            output.Show();
+            output.Activate();
         }
     }
 }
