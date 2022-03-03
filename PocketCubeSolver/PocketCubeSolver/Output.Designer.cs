@@ -1,7 +1,7 @@
 ﻿
 namespace PocketCubeSolver
 {
-    partial class Form2
+    partial class Output
     {
         /// <summary>
         /// Required designer variable.

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PocketCubeSolver
 {
-    public partial class Form2 : Form
+    public partial class Input : Form
     {
-        public Form2()
+        public Input()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
