@@ -42,6 +42,7 @@ namespace PocketCubeSolver
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -59,6 +60,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox13
             // 
+            this.pictureBox13.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Original;
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox13.Location = new System.Drawing.Point(209, 448);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
@@ -69,6 +71,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox12
             // 
+            this.pictureBox12.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step12Arrows;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Location = new System.Drawing.Point(400, 306);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
@@ -79,6 +82,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox11
             // 
+            this.pictureBox11.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step11Arrows;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox11.Location = new System.Drawing.Point(273, 306);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
@@ -89,6 +93,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox10
             // 
+            this.pictureBox10.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step10Arrows;
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Location = new System.Drawing.Point(146, 306);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
@@ -99,6 +104,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step9Arrows;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox9.Location = new System.Drawing.Point(19, 306);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
@@ -109,6 +115,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step8Arrows;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Location = new System.Drawing.Point(400, 163);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
@@ -119,6 +126,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step7Arrows;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Location = new System.Drawing.Point(273, 163);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
@@ -129,6 +137,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step6Arrows;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Location = new System.Drawing.Point(146, 163);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -139,6 +148,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step5Arrows;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Location = new System.Drawing.Point(19, 163);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
@@ -149,6 +159,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step4Arrows;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(400, 18);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
@@ -159,6 +170,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step3Arrows;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(273, 18);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
@@ -169,6 +181,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step2WithArrows;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(146, 18);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
@@ -179,6 +192,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step1WithArrows;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(19, 18);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -187,11 +201,24 @@ namespace PocketCubeSolver
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
+            // buttonBack
+            // 
+            this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonBack.Location = new System.Drawing.Point(227, 576);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(71, 35);
+            this.buttonBack.TabIndex = 26;
+            this.buttonBack.Text = "Back";
+            this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
             // Output
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 582);
+            this.ClientSize = new System.Drawing.Size(520, 622);
+            this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
@@ -206,7 +233,7 @@ namespace PocketCubeSolver
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Output";
-            this.Text = "Form2";
+            this.Text = "Output";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -239,5 +266,6 @@ namespace PocketCubeSolver
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button buttonBack;
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.AssemblyReference.cache
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.Input.resources
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.Output.resources
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.Properties.Resources.resources
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.GenerateResource.cache
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.CoreCompileInputs.cache
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\PocketCubeSolver.exe.config
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\PocketCubeSolver.exe
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\PocketCubeSolver.pdb
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.exe
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.pdb
