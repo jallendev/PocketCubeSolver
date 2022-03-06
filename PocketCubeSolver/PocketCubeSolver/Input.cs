@@ -21,5 +21,10 @@ namespace PocketCubeSolver
         {
             
         }
+
+        private void Input_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
