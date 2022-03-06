@@ -95,5 +95,38 @@
   <ItemGroup>
     <None Include="Resources\Step2WithArrows.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step9Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step5Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step10Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step6Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step12Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step8Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step4Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step11Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step7Arrows.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Original.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
