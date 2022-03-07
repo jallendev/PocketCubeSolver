@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Builds",
-    "\\Builds\\Cross-Platform Desktop App",
-    "\\Builds\\Cross-Platform Desktop App\\macOS Universal",
     "\\PocketCubeSolver",
-    "\\PocketCubeSolver\\PocketCubeSolver",
-    "\\PocketCubeSolver\\PocketCubeSolver\\bin",
-    "\\PocketCubeSolver\\PocketCubeSolver\\bin\\Debug",
-    "\\PocketCubeSolver\\PocketCubeSolver\\bin\\Release",
-    "\\PocketCubeSolver\\PocketCubeSolver\\Properties"
+    "\\PocketCubeSolver\\PocketCubeSolver"
   ],
-  "SelectedNode": "\\PocketCubeSolver\\PocketCubeSolver\\Form1.cs",
+  "SelectedNode": "\\PocketCubeSolver\\PocketCubeSolver\\Input.cs",
   "PreviewInSolutionExplorer": false
 }
