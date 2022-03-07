@@ -118,73 +118,196 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Step10Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step10Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Step6Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step6Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (8)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Original" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Original1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Step11Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step11Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step4Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step4Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step2WithArrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step2WithArrows1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step8Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step8Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step3Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step3Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step1WithArrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step1WithArrows1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step5Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step5Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step9Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step9Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step12Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step12Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Step7Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Step7Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exit_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exit_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exit_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="option_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\option_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="option_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\option_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="option_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\option_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sound off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sound off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sound on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sound on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Step11Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step11Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="start_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sound off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sound off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step8Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step8Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step2WithArrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step2WithArrows1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="option_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\option_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step1WithArrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step1WithArrows1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenuButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Option" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Option.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step3Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step3Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (6)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step10Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step10Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="option_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\option_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Original1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Original.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (11)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sound on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sound on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AboutUs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutUs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step9Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step9Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step7Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step7Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (10)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (9)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-2x2-mini-rubik-s-cube-png-image_2965080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-2x2-mini-rubik-s-cube-png-image_2965080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Languages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Languages.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="option_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\option_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step4Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step4Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (7)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="start_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step6Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step6Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step12Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step12Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="color-patterns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color-patterns.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3572994-middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3572994-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step5Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step5Arrows1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (4)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3572994-middle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3572994-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="color-patterns1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color-patterns.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-2x2-mini-rubik-s-cube-png-image_29650801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-2x2-mini-rubik-s-cube-png-image_2965080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

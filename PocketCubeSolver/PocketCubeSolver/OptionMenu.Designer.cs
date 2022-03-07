@@ -1,7 +1,7 @@
 ﻿
 namespace PocketCubeSolver
 {
-    partial class MainMenu
+    partial class OptionMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -46,21 +46,18 @@ namespace PocketCubeSolver
             this.windowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuPanel = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menuLabel = new System.Windows.Forms.Label();
-            this.exitButton = new System.Windows.Forms.PictureBox();
-            this.optionButton = new System.Windows.Forms.PictureBox();
-            this.startButton = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.mainMenuButton = new System.Windows.Forms.PictureBox();
+            this.optionsLabel = new System.Windows.Forms.Label();
+            this.languagesButton = new System.Windows.Forms.PictureBox();
+            this.helpButton = new System.Windows.Forms.PictureBox();
+            this.aboutUsButton = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            this.menuPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.exitButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.optionButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.startButton)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.languagesButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.helpButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aboutUsButton)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -72,8 +69,8 @@ namespace PocketCubeSolver
             this.windowToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(732, 28);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
@@ -94,7 +91,6 @@ namespace PocketCubeSolver
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.openToolStripMenuItem.Text = "New";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem1
             // 
@@ -175,7 +171,6 @@ namespace PocketCubeSolver
             this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
             this.windowToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.windowToolStripMenuItem.Text = "Help";
-            this.windowToolStripMenuItem.Click += new System.EventHandler(this.windowToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -188,120 +183,89 @@ namespace PocketCubeSolver
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.helpToolStripMenuItem.Text = "Tutorials";
-            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
-            // menuPanel
+            // panel1
             // 
-            this.menuPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.menuPanel.Controls.Add(this.pictureBox2);
-            this.menuPanel.Controls.Add(this.pictureBox1);
-            this.menuPanel.Controls.Add(this.menuLabel);
-            this.menuPanel.Controls.Add(this.exitButton);
-            this.menuPanel.Controls.Add(this.optionButton);
-            this.menuPanel.Controls.Add(this.startButton);
-            this.menuPanel.Controls.Add(this.label1);
-            this.menuPanel.Location = new System.Drawing.Point(143, 44);
-            this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Size = new System.Drawing.Size(433, 313);
-            this.menuPanel.TabIndex = 1;
-            this.menuPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.menuPanel_Paint);
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.aboutUsButton);
+            this.panel1.Controls.Add(this.languagesButton);
+            this.panel1.Controls.Add(this.helpButton);
+            this.panel1.Controls.Add(this.mainMenuButton);
+            this.panel1.Controls.Add(this.optionsLabel);
+            this.panel1.Location = new System.Drawing.Point(277, 70);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(205, 317);
+            this.panel1.TabIndex = 6;
             // 
-            // pictureBox2
+            // mainMenuButton
             // 
-            this.pictureBox2.Image = global::PocketCubeSolver.Properties.Resources.Step9Arrows;
-            this.pictureBox2.Location = new System.Drawing.Point(275, 63);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 81);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
+            this.mainMenuButton.Image = global::PocketCubeSolver.Properties.Resources.button__6_;
+            this.mainMenuButton.Location = new System.Drawing.Point(11, 239);
+            this.mainMenuButton.Name = "mainMenuButton";
+            this.mainMenuButton.Size = new System.Drawing.Size(170, 50);
+            this.mainMenuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.mainMenuButton.TabIndex = 7;
+            this.mainMenuButton.TabStop = false;
+            this.mainMenuButton.Click += new System.EventHandler(this.mainMenuButton_Click);
             // 
-            // pictureBox1
+            // optionsLabel
             // 
-            this.pictureBox1.Image = global::PocketCubeSolver.Properties.Resources.Step6Arrows;
-            this.pictureBox1.Location = new System.Drawing.Point(29, 63);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 81);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.optionsLabel.AutoSize = true;
+            this.optionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.optionsLabel.Location = new System.Drawing.Point(23, 11);
+            this.optionsLabel.Name = "optionsLabel";
+            this.optionsLabel.Size = new System.Drawing.Size(158, 46);
+            this.optionsLabel.TabIndex = 0;
+            this.optionsLabel.Text = "Options";
             // 
-            // menuLabel
+            // languagesButton
             // 
-            this.menuLabel.AutoSize = true;
-            this.menuLabel.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuLabel.Location = new System.Drawing.Point(19, 0);
-            this.menuLabel.Name = "menuLabel";
-            this.menuLabel.Size = new System.Drawing.Size(372, 60);
-            this.menuLabel.TabIndex = 3;
-            this.menuLabel.Text = "2x2 Rubik\'s Cube";
-            this.menuLabel.Click += new System.EventHandler(this.label1_Click);
+            this.languagesButton.Image = global::PocketCubeSolver.Properties.Resources.button__3_;
+            this.languagesButton.Location = new System.Drawing.Point(11, 127);
+            this.languagesButton.Name = "languagesButton";
+            this.languagesButton.Size = new System.Drawing.Size(170, 50);
+            this.languagesButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.languagesButton.TabIndex = 5;
+            this.languagesButton.TabStop = false;
             // 
-            // exitButton
+            // helpButton
             // 
-            this.exitButton.Image = global::PocketCubeSolver.Properties.Resources.Exit;
-            this.exitButton.Location = new System.Drawing.Point(131, 253);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(150, 50);
-            this.exitButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.exitButton.TabIndex = 2;
-            this.exitButton.TabStop = false;
-            this.exitButton.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.helpButton.Image = global::PocketCubeSolver.Properties.Resources.button__2_;
+            this.helpButton.Location = new System.Drawing.Point(11, 183);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(170, 50);
+            this.helpButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.helpButton.TabIndex = 4;
+            this.helpButton.TabStop = false;
             // 
-            // optionButton
+            // aboutUsButton
             // 
-            this.optionButton.Image = global::PocketCubeSolver.Properties.Resources.Option;
-            this.optionButton.Location = new System.Drawing.Point(131, 197);
-            this.optionButton.Name = "optionButton";
-            this.optionButton.Size = new System.Drawing.Size(150, 50);
-            this.optionButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.optionButton.TabIndex = 1;
-            this.optionButton.TabStop = false;
-            this.optionButton.Click += new System.EventHandler(this.option_Click);
+            this.aboutUsButton.Image = global::PocketCubeSolver.Properties.Resources.button__4_;
+            this.aboutUsButton.Location = new System.Drawing.Point(11, 71);
+            this.aboutUsButton.Name = "aboutUsButton";
+            this.aboutUsButton.Size = new System.Drawing.Size(170, 50);
+            this.aboutUsButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.aboutUsButton.TabIndex = 3;
+            this.aboutUsButton.TabStop = false;
             // 
-            // startButton
-            // 
-            this.startButton.Image = global::PocketCubeSolver.Properties.Resources.Start;
-            this.startButton.Location = new System.Drawing.Point(131, 141);
-            this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(150, 50);
-            this.startButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.startButton.TabIndex = 0;
-            this.startButton.TabStop = false;
-            this.startButton.Click += new System.EventHandler(this.startButton_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(121, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 60);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Solver";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
-            // 
-            // MainMenu
+            // OptionMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(732, 435);
-            this.Controls.Add(this.menuPanel);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "MainMenu";
-            this.Text = "MainMenu";
-            this.Load += new System.EventHandler(this.MainMenu_Load);
+            this.Controls.Add(this.panel1);
+            this.Name = "OptionMenu";
+            this.Text = "OptionMenu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.menuPanel.ResumeLayout(false);
-            this.menuPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.exitButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.optionButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.startButton)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mainMenuButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.languagesButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.helpButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aboutUsButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,24 +279,22 @@ namespace PocketCubeSolver
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem windowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem undoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem redoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windowToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.Panel menuPanel;
-        private System.Windows.Forms.PictureBox exitButton;
-        private System.Windows.Forms.PictureBox optionButton;
-        private System.Windows.Forms.PictureBox startButton;
-        private System.Windows.Forms.Label menuLabel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox aboutUsButton;
+        private System.Windows.Forms.PictureBox helpButton;
+        private System.Windows.Forms.PictureBox languagesButton;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label optionsLabel;
+        private System.Windows.Forms.PictureBox mainMenuButton;
     }
 }

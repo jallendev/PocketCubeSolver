@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PocketCubeSolver
@@ -39,15 +32,42 @@ namespace PocketCubeSolver
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            // Need a quit command ?
+            this.Hide();
         }
 
         private void option_Click(object sender, EventArgs e)
         {
-
+            Form option = new OptionsMenu();
+            option.Show();
+            this.Hide();
+            option.Activate();
         }
 
         private void startButton_Click(object sender, EventArgs e)
+        {
+            Form input = new Input();
+            input.Show();
+            this.Hide();
+            input.Activate();
+        }
+
+        private void menuPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rubikscube_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

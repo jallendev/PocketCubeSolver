@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Builds\\Cross-Platform Desktop App",
     "\\PocketCubeSolver",
     "\\PocketCubeSolver\\PocketCubeSolver"
   ],
-  "SelectedNode": "\\PocketCubeSolver\\PocketCubeSolver\\PocketCubeSolver.csproj",
+  "SelectedNode": "\\PocketCubeSolver\\PocketCubeSolver\\Input.cs",
   "PreviewInSolutionExplorer": false
 }
