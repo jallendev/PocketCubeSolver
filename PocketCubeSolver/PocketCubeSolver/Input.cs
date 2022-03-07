@@ -12,19 +12,154 @@ namespace PocketCubeSolver
 {
     public partial class Input : Form
     {
+        Color[] colors = new Color[] { Color.White, Color.Blue, Color.Red, Color.Lime, Color.FromArgb(255, 128, 0), Color.Yellow };
         public Input()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public Color nextColor(Color currentColor)
         {
-            
+            int currColor = 0;
+            for (int count = 0; count < colors.Length; count++)
+            {
+                if (colors[count] == currentColor)
+                {
+                    currColor = count;
+                }
+            }
+            ++currColor;
+            if (currColor >= colors.Length)
+                currColor = 0;
+            return colors[currColor];
         }
 
-        private void Input_Load(object sender, EventArgs e)
+        private void buttonSolve_Click(object sender, EventArgs e)
         {
+            Form output = new Output();
+            output.Show();
+            this.Hide();
+            output.Activate();
+        }
 
+        private void bottomTL_Click(object sender, EventArgs e)
+        {
+            bottomTL.BackColor = nextColor(bottomTL.BackColor);
+        }
+
+        private void bottomTR_Click(object sender, EventArgs e)
+        {
+            bottomTR.BackColor = nextColor(bottomTR.BackColor);
+        }
+
+        private void bottomBL_Click(object sender, EventArgs e)
+        {
+            bottomBL.BackColor = nextColor(bottomBL.BackColor);
+        }
+
+        private void bottomBR_Click(object sender, EventArgs e)
+        {
+            bottomBR.BackColor = nextColor(bottomBR.BackColor);
+        }
+
+        private void leftTL_Click(object sender, EventArgs e)
+        {
+            leftTL.BackColor = nextColor(leftTL.BackColor);
+        }
+
+        private void leftTR_Click(object sender, EventArgs e)
+        {
+            leftTR.BackColor = nextColor(leftTR.BackColor);
+        }
+
+        private void leftBL_Click(object sender, EventArgs e)
+        {
+            leftBL.BackColor = nextColor(leftBL.BackColor);
+        }
+
+        private void leftBR_Click(object sender, EventArgs e)
+        {
+            leftBR.BackColor = nextColor(leftBR.BackColor);
+        }
+
+        private void backTL_Click(object sender, EventArgs e)
+        {
+            backTL.BackColor = nextColor(backTL.BackColor);
+        }
+
+        private void backTR_Click(object sender, EventArgs e)
+        {
+            backTR.BackColor = nextColor(backTR.BackColor);
+        }
+
+        private void backBL_Click(object sender, EventArgs e)
+        {
+            backBL.BackColor = nextColor(backBL.BackColor);
+        }
+
+        private void backBR_Click(object sender, EventArgs e)
+        {
+            backBR.BackColor = nextColor(backBR.BackColor);
+        }
+
+        private void topTL_Click(object sender, EventArgs e)
+        {
+            topTL.BackColor = nextColor(topTL.BackColor);
+        }
+
+        private void topTR_Click(object sender, EventArgs e)
+        {
+            topTR.BackColor = nextColor(topTR.BackColor);
+        }
+
+        private void topBL_Click(object sender, EventArgs e)
+        {
+            topBL.BackColor = nextColor(topBL.BackColor);
+        }
+
+        private void topBR_Click(object sender, EventArgs e)
+        {
+            topBR.BackColor = nextColor(topBR.BackColor);
+        }
+
+        private void rightTL_Click(object sender, EventArgs e)
+        {
+            rightTL.BackColor = nextColor(rightTL.BackColor);
+        }
+
+        private void rightTR_Click(object sender, EventArgs e)
+        {
+            rightTR.BackColor = nextColor(rightTR.BackColor);
+        }
+
+        private void rightBL_Click(object sender, EventArgs e)
+        {
+            rightBL.BackColor = nextColor(rightBL.BackColor);
+        }
+
+        private void rightBR_Click(object sender, EventArgs e)
+        {
+            rightBR.BackColor = nextColor(rightBR.BackColor);
+        }
+
+        private void frontTL_Click(object sender, EventArgs e)
+        {
+            frontTL.BackColor = nextColor(frontTL.BackColor);
+        }
+
+        private void frontTR_Click(object sender, EventArgs e)
+        {
+            frontTR.BackColor = nextColor(frontTR.BackColor);
+        }
+
+        private void frontBL_Click(object sender, EventArgs e)
+        {
+            frontBL.BackColor = nextColor(frontBL.BackColor);
+        }
+
+        private void frontBR_Click(object sender, EventArgs e)
+        {
+            frontBR.BackColor = nextColor(frontBR.BackColor);
         }
     }
 }

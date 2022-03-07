@@ -16,5 +16,13 @@ namespace PocketCubeSolver
         {
             InitializeComponent();
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            Form input = new Input();
+            input.Show();
+            this.Hide();
+            input.Activate();
+        }
     }
 }
