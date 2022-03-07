@@ -23,3 +23,7 @@ C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\o
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\Control.Draggable.dll
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.MainMenu.resources
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.CopyComplete
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\Control.Draggable.dll
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.MainMenu.resources
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.OptionsMenu.resources
+C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.CopyComplete

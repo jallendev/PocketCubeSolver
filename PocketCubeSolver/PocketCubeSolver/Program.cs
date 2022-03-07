@@ -16,7 +16,7 @@ namespace PocketCubeSolver
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Input());
+            Application.Run(new MainMenu());
         }
     }
 }
