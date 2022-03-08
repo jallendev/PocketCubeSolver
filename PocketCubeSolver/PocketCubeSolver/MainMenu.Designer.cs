@@ -72,7 +72,8 @@ namespace PocketCubeSolver
             this.windowToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(732, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(549, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,43 +87,42 @@ namespace PocketCubeSolver
             this.toolStripMenuItem1,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "New";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem1
             // 
             this.openToolStripMenuItem1.Name = "openToolStripMenuItem1";
-            this.openToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
+            this.openToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem1.Text = "Open";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.printToolStripMenuItem.Text = "Print";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(125, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(100, 6);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             // 
             // editToolStripMenuItem
@@ -134,37 +134,37 @@ namespace PocketCubeSolver
             this.copyToolStripMenuItem,
             this.pasteToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // undoToolStripMenuItem
             // 
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.undoToolStripMenuItem.Text = "Undo";
             // 
             // redoToolStripMenuItem
             // 
             this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
-            this.redoToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.redoToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.redoToolStripMenuItem.Text = "Redo";
             // 
             // cutToolStripMenuItem
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.cutToolStripMenuItem.Text = "Cut";
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.copyToolStripMenuItem.Text = "Copy";
             // 
             // pasteToolStripMenuItem
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.pasteToolStripMenuItem.Text = "Paste";
             // 
             // windowToolStripMenuItem
@@ -173,22 +173,20 @@ namespace PocketCubeSolver
             this.aboutToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
-            this.windowToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.windowToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.windowToolStripMenuItem.Text = "Help";
-            this.windowToolStripMenuItem.Click += new System.EventHandler(this.windowToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.helpToolStripMenuItem.Text = "Tutorials";
-            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // menuPanel
             // 
@@ -200,18 +198,19 @@ namespace PocketCubeSolver
             this.menuPanel.Controls.Add(this.optionButton);
             this.menuPanel.Controls.Add(this.startButton);
             this.menuPanel.Controls.Add(this.label1);
-            this.menuPanel.Location = new System.Drawing.Point(143, 44);
+            this.menuPanel.Location = new System.Drawing.Point(107, 36);
+            this.menuPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Size = new System.Drawing.Size(433, 313);
+            this.menuPanel.Size = new System.Drawing.Size(326, 255);
             this.menuPanel.TabIndex = 1;
-            this.menuPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.menuPanel_Paint);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PocketCubeSolver.Properties.Resources.Step9Arrows;
-            this.pictureBox2.Location = new System.Drawing.Point(275, 63);
+            this.pictureBox2.Location = new System.Drawing.Point(206, 51);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 81);
+            this.pictureBox2.Size = new System.Drawing.Size(75, 66);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -219,9 +218,10 @@ namespace PocketCubeSolver
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PocketCubeSolver.Properties.Resources.Step6Arrows;
-            this.pictureBox1.Location = new System.Drawing.Point(29, 63);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 51);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 81);
+            this.pictureBox1.Size = new System.Drawing.Size(75, 66);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -230,19 +230,20 @@ namespace PocketCubeSolver
             // 
             this.menuLabel.AutoSize = true;
             this.menuLabel.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuLabel.Location = new System.Drawing.Point(19, 0);
+            this.menuLabel.Location = new System.Drawing.Point(14, 0);
+            this.menuLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.menuLabel.Name = "menuLabel";
-            this.menuLabel.Size = new System.Drawing.Size(372, 60);
+            this.menuLabel.Size = new System.Drawing.Size(297, 46);
             this.menuLabel.TabIndex = 3;
             this.menuLabel.Text = "2x2 Rubik\'s Cube";
-            this.menuLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // exitButton
             // 
             this.exitButton.Image = global::PocketCubeSolver.Properties.Resources.Exit;
-            this.exitButton.Location = new System.Drawing.Point(131, 253);
+            this.exitButton.Location = new System.Drawing.Point(98, 206);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(150, 50);
+            this.exitButton.Size = new System.Drawing.Size(112, 41);
             this.exitButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.exitButton.TabIndex = 2;
             this.exitButton.TabStop = false;
@@ -251,9 +252,10 @@ namespace PocketCubeSolver
             // optionButton
             // 
             this.optionButton.Image = global::PocketCubeSolver.Properties.Resources.Option;
-            this.optionButton.Location = new System.Drawing.Point(131, 197);
+            this.optionButton.Location = new System.Drawing.Point(98, 160);
+            this.optionButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.optionButton.Name = "optionButton";
-            this.optionButton.Size = new System.Drawing.Size(150, 50);
+            this.optionButton.Size = new System.Drawing.Size(112, 41);
             this.optionButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.optionButton.TabIndex = 1;
             this.optionButton.TabStop = false;
@@ -262,9 +264,10 @@ namespace PocketCubeSolver
             // startButton
             // 
             this.startButton.Image = global::PocketCubeSolver.Properties.Resources.Start;
-            this.startButton.Location = new System.Drawing.Point(131, 141);
+            this.startButton.Location = new System.Drawing.Point(98, 115);
+            this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(150, 50);
+            this.startButton.Size = new System.Drawing.Size(112, 41);
             this.startButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.startButton.TabIndex = 0;
             this.startButton.TabStop = false;
@@ -274,25 +277,25 @@ namespace PocketCubeSolver
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(121, 51);
+            this.label1.Location = new System.Drawing.Point(91, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 60);
+            this.label1.Size = new System.Drawing.Size(124, 46);
             this.label1.TabIndex = 5;
             this.label1.Text = "Solver";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(732, 435);
+            this.ClientSize = new System.Drawing.Size(549, 353);
             this.Controls.Add(this.menuPanel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
-            this.Load += new System.EventHandler(this.MainMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.menuPanel.ResumeLayout(false);

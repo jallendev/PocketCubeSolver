@@ -45,6 +45,8 @@ namespace PocketCubeSolver
             output.Activate();
         }
 
+        //Event handlers for the panel color changes
+
         private void bottomTL_Click(object sender, EventArgs e)
         {
             bottomTL.BackColor = nextColor(bottomTL.BackColor);

@@ -17,11 +17,7 @@ namespace PocketCubeSolver
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        //Opens the main menu
         private void mainMenuButton_Click(object sender, EventArgs e)
         {
             Form mainMenu = new MainMenu();
