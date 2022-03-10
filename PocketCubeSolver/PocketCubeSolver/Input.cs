@@ -64,12 +64,14 @@ namespace PocketCubeSolver
 
         private int LoadPermutation()
         {
-            int sum = 0;
+            int sum = 0, top = 0, right = 0, left = 0;
 
             //position 0
-            sum += colorToInt(topTR.BackColor);
-            sum += colorToInt(backBR.BackColor);
-            sum += colorToInt(rightTL.BackColor);
+            top   = colorToInt(topTR.BackColor);
+            right = colorToInt(backBR.BackColor);
+            left  = colorToInt(rightTL.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -81,10 +83,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[0] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[0] = 1;
+            }
+            else
+            {
+                orientation[0] = 2;
+            }
+
             //position 1
-            sum += colorToInt(topTL.BackColor);
-            sum += colorToInt(backBL.BackColor);
-            sum += colorToInt(leftBR.BackColor);
+            top   = colorToInt(topTL.BackColor);
+            right = colorToInt(leftBR.BackColor);
+            left = colorToInt(backBL.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -96,10 +114,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[1] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[1] = 1;
+            }
+            else
+            {
+                orientation[1] = 2;
+            }
+
             //position 2
-            sum += colorToInt(topBL.BackColor);
-            sum += colorToInt(frontTL.BackColor);
-            sum += colorToInt(leftBL.BackColor);
+            top   = colorToInt(topBL.BackColor);
+            right = colorToInt(frontTL.BackColor);
+            left = colorToInt(leftBL.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -111,10 +145,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[2] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[2] = 1;
+            }
+            else
+            {
+                orientation[2] = 2;
+            }
+
             //position 3
-            sum += colorToInt(topBR.BackColor);
-            sum += colorToInt(rightBL.BackColor);
-            sum += colorToInt(frontTL.BackColor);
+            top   = colorToInt(topBR.BackColor);
+            right = colorToInt(rightBL.BackColor);
+            left = colorToInt(frontTL.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -126,10 +176,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[3] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[3] = 1;
+            }
+            else
+            {
+                orientation[3] = 2;
+            }
+
             //position 4
-            sum += colorToInt(bottomBR.BackColor);
-            sum += colorToInt(backTR.BackColor);
-            sum += colorToInt(rightTR.BackColor);
+            top   = colorToInt(bottomBR.BackColor);
+            right = colorToInt(rightTR.BackColor); 
+            left = colorToInt(backTR.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -141,10 +207,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[4] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[4] = 1;
+            }
+            else
+            {
+                orientation[4] = 2;
+            }
+
             //position 5
-            sum += colorToInt(bottomBL.BackColor);
-            sum += colorToInt(backTL.BackColor);
-            sum += colorToInt(leftTR.BackColor);
+            top   = colorToInt(bottomBL.BackColor);
+            right = colorToInt(backTL.BackColor);
+            left = colorToInt(leftTR.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -156,10 +238,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[5] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[5] = 1;
+            }
+            else
+            {
+                orientation[5] = 2;
+            }
+
             //position 6
-            sum += colorToInt(bottomTL.BackColor);
-            sum += colorToInt(leftTL.BackColor);
-            sum += colorToInt(frontBL.BackColor);
+            top   = colorToInt(bottomTL.BackColor);
+            right = colorToInt(leftTL.BackColor);
+            left = colorToInt(frontBL.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -171,10 +269,26 @@ namespace PocketCubeSolver
             }
             sum = 0;
 
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[6] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[6] = 1;
+            }
+            else
+            {
+                orientation[6] = 2;
+            }
+
             //position 7
-            sum += colorToInt(bottomTR.BackColor);
-            sum += colorToInt(rightBR.BackColor);
-            sum += colorToInt(frontBR.BackColor);
+            top   = colorToInt(bottomTR.BackColor);
+            right = colorToInt(frontBR.BackColor); 
+            left = colorToInt(rightBR.BackColor);
+
+            sum = top + right + left;
 
             if (findCubie(sum) == -1)
             {
@@ -185,6 +299,20 @@ namespace PocketCubeSolver
                 position[7] = findCubie(sum);
             }
             sum = 0;
+
+            //find orientation
+            if (top == 2 || top == 13)
+            {
+                orientation[7] = 0;
+            }
+            else if (right == 2 || right == 13)
+            {
+                orientation[7] = 1;
+            }
+            else
+            {
+                orientation[7] = 2;
+            }
 
             return 0;
         }
