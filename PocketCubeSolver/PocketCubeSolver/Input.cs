@@ -14,6 +14,11 @@ namespace PocketCubeSolver
     {
         // Colors of the rubix cube
         Color[] colors = new Color[] { Color.White, Color.Blue, Color.Red, Color.Lime, Color.FromArgb(255, 128, 0), Color.Yellow };
+        int[] intColors = new int[] { 2, 3, 5, 7, 11, 13 };
+        int[] position = new int[] { 0, 1, 2, 3, 4, 5, 6, 7 };
+        int[] orientation = new int[] {0, 0, 0, 0, 0, 0, 0, 0};
+        List<int> solution = new List<int>();
+
         public Input()
         {
             InitializeComponent();
@@ -39,10 +44,185 @@ namespace PocketCubeSolver
         // Sends the user to the output form by clicking the "Solve" button
         private void buttonSolve_Click(object sender, EventArgs e)
         {
+            int status = LoadPermutation();
+
+            foreach (var item in position)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
             Form output = new Output();
             output.Show();
             this.Hide();
             output.Activate();
+        }
+
+        private void whiteFace()
+        {
+            //inserting cubie 1
+        }
+
+        private int LoadPermutation()
+        {
+            int sum = 0;
+
+            //position 0
+            sum += colorToInt(topTR.BackColor);
+            sum += colorToInt(backBR.BackColor);
+            sum += colorToInt(rightTL.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[0] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 1
+            sum += colorToInt(topTL.BackColor);
+            sum += colorToInt(backBL.BackColor);
+            sum += colorToInt(leftBR.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[1] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 2
+            sum += colorToInt(topBL.BackColor);
+            sum += colorToInt(frontTL.BackColor);
+            sum += colorToInt(leftBL.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[2] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 3
+            sum += colorToInt(topBR.BackColor);
+            sum += colorToInt(rightBL.BackColor);
+            sum += colorToInt(frontTL.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[3] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 4
+            sum += colorToInt(bottomBR.BackColor);
+            sum += colorToInt(backTR.BackColor);
+            sum += colorToInt(rightTR.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[4] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 5
+            sum += colorToInt(bottomBL.BackColor);
+            sum += colorToInt(backTL.BackColor);
+            sum += colorToInt(leftTR.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[5] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 6
+            sum += colorToInt(bottomTL.BackColor);
+            sum += colorToInt(leftTL.BackColor);
+            sum += colorToInt(frontBL.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[6] = findCubie(sum);
+            }
+            sum = 0;
+
+            //position 7
+            sum += colorToInt(bottomTR.BackColor);
+            sum += colorToInt(rightBR.BackColor);
+            sum += colorToInt(frontBR.BackColor);
+
+            if (findCubie(sum) == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                position[7] = findCubie(sum);
+            }
+            sum = 0;
+
+            return 0;
+        }
+
+        private int colorToInt(Color test)
+        {
+            for (int color = 0; color < colors.Length; ++color){
+                if (colors[color].Equals(test))
+                {
+                    return intColors[color];
+                }
+            }
+            return 100;
+        }
+
+        private int findCubie(int sum)
+        {
+            switch (sum)
+            {
+                case (10):
+                    return 0;
+                case (16):
+                    return 1;
+                case (20):
+                    return 2;
+                case (14):
+                    return 3;
+                case (21):
+                    return 4;
+                case (27):
+                    return 5;
+                case (31):
+                    return 6;
+                case (25):
+                    return 7;
+                default:
+                    return -1;
+            }
         }
 
         //Event handlers for the panel color changes
