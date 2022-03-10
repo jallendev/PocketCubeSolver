@@ -78,7 +78,7 @@ namespace PocketCubeSolver
             // 
             this.buttonSolve.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.buttonSolve.Location = new System.Drawing.Point(219, 314);
-            this.buttonSolve.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonSolve.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonSolve.Name = "buttonSolve";
             this.buttonSolve.Size = new System.Drawing.Size(71, 35);
             this.buttonSolve.TabIndex = 1;
@@ -90,7 +90,7 @@ namespace PocketCubeSolver
             // 
             this.bottomTL.BackColor = System.Drawing.Color.White;
             this.bottomTL.Location = new System.Drawing.Point(230, 69);
-            this.bottomTL.Margin = new System.Windows.Forms.Padding(2);
+            this.bottomTL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bottomTL.Name = "bottomTL";
             this.bottomTL.Size = new System.Drawing.Size(22, 24);
             this.bottomTL.TabIndex = 2;
@@ -100,7 +100,7 @@ namespace PocketCubeSolver
             // 
             this.bottomBL.BackColor = System.Drawing.Color.White;
             this.bottomBL.Location = new System.Drawing.Point(230, 98);
-            this.bottomBL.Margin = new System.Windows.Forms.Padding(2);
+            this.bottomBL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bottomBL.Name = "bottomBL";
             this.bottomBL.Size = new System.Drawing.Size(22, 24);
             this.bottomBL.TabIndex = 3;
@@ -110,7 +110,7 @@ namespace PocketCubeSolver
             // 
             this.bottomTR.BackColor = System.Drawing.Color.White;
             this.bottomTR.Location = new System.Drawing.Point(257, 69);
-            this.bottomTR.Margin = new System.Windows.Forms.Padding(2);
+            this.bottomTR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bottomTR.Name = "bottomTR";
             this.bottomTR.Size = new System.Drawing.Size(22, 24);
             this.bottomTR.TabIndex = 3;
@@ -118,9 +118,9 @@ namespace PocketCubeSolver
             // 
             // bottomBR
             // 
-            this.bottomBR.BackColor = System.Drawing.Color.White;
+            this.bottomBR.BackColor = System.Drawing.Color.Yellow;
             this.bottomBR.Location = new System.Drawing.Point(257, 98);
-            this.bottomBR.Margin = new System.Windows.Forms.Padding(2);
+            this.bottomBR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bottomBR.Name = "bottomBR";
             this.bottomBR.Size = new System.Drawing.Size(22, 24);
             this.bottomBR.TabIndex = 3;
@@ -128,9 +128,9 @@ namespace PocketCubeSolver
             // 
             // backBL
             // 
-            this.backBL.BackColor = System.Drawing.Color.Blue;
+            this.backBL.BackColor = System.Drawing.Color.Red;
             this.backBL.Location = new System.Drawing.Point(230, 157);
-            this.backBL.Margin = new System.Windows.Forms.Padding(2);
+            this.backBL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.backBL.Name = "backBL";
             this.backBL.Size = new System.Drawing.Size(22, 24);
             this.backBL.TabIndex = 6;
@@ -140,7 +140,7 @@ namespace PocketCubeSolver
             // 
             this.backBR.BackColor = System.Drawing.Color.Blue;
             this.backBR.Location = new System.Drawing.Point(257, 157);
-            this.backBR.Margin = new System.Windows.Forms.Padding(2);
+            this.backBR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.backBR.Name = "backBR";
             this.backBR.Size = new System.Drawing.Size(22, 24);
             this.backBR.TabIndex = 7;
@@ -150,7 +150,7 @@ namespace PocketCubeSolver
             // 
             this.backTR.BackColor = System.Drawing.Color.Blue;
             this.backTR.Location = new System.Drawing.Point(257, 128);
-            this.backTR.Margin = new System.Windows.Forms.Padding(2);
+            this.backTR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.backTR.Name = "backTR";
             this.backTR.Size = new System.Drawing.Size(22, 24);
             this.backTR.TabIndex = 8;
@@ -158,9 +158,9 @@ namespace PocketCubeSolver
             // 
             // backTL
             // 
-            this.backTL.BackColor = System.Drawing.Color.Blue;
+            this.backTL.BackColor = System.Drawing.Color.Red;
             this.backTL.Location = new System.Drawing.Point(230, 128);
-            this.backTL.Margin = new System.Windows.Forms.Padding(2);
+            this.backTL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.backTL.Name = "backTL";
             this.backTL.Size = new System.Drawing.Size(22, 24);
             this.backTL.TabIndex = 5;
@@ -168,9 +168,9 @@ namespace PocketCubeSolver
             // 
             // leftBL
             // 
-            this.leftBL.BackColor = System.Drawing.Color.Red;
+            this.leftBL.BackColor = System.Drawing.Color.Blue;
             this.leftBL.Location = new System.Drawing.Point(176, 157);
-            this.leftBL.Margin = new System.Windows.Forms.Padding(2);
+            this.leftBL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.leftBL.Name = "leftBL";
             this.leftBL.Size = new System.Drawing.Size(22, 24);
             this.leftBL.TabIndex = 6;
@@ -180,7 +180,7 @@ namespace PocketCubeSolver
             // 
             this.leftBR.BackColor = System.Drawing.Color.Red;
             this.leftBR.Location = new System.Drawing.Point(203, 157);
-            this.leftBR.Margin = new System.Windows.Forms.Padding(2);
+            this.leftBR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.leftBR.Name = "leftBR";
             this.leftBR.Size = new System.Drawing.Size(22, 24);
             this.leftBR.TabIndex = 7;
@@ -190,7 +190,7 @@ namespace PocketCubeSolver
             // 
             this.leftTR.BackColor = System.Drawing.Color.Red;
             this.leftTR.Location = new System.Drawing.Point(203, 128);
-            this.leftTR.Margin = new System.Windows.Forms.Padding(2);
+            this.leftTR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.leftTR.Name = "leftTR";
             this.leftTR.Size = new System.Drawing.Size(22, 24);
             this.leftTR.TabIndex = 8;
@@ -200,7 +200,7 @@ namespace PocketCubeSolver
             // 
             this.leftTL.BackColor = System.Drawing.Color.Red;
             this.leftTL.Location = new System.Drawing.Point(176, 128);
-            this.leftTL.Margin = new System.Windows.Forms.Padding(2);
+            this.leftTL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.leftTL.Name = "leftTL";
             this.leftTL.Size = new System.Drawing.Size(22, 24);
             this.leftTL.TabIndex = 5;
@@ -208,9 +208,9 @@ namespace PocketCubeSolver
             // 
             // topBL
             // 
-            this.topBL.BackColor = System.Drawing.Color.Lime;
+            this.topBL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.topBL.Location = new System.Drawing.Point(230, 215);
-            this.topBL.Margin = new System.Windows.Forms.Padding(2);
+            this.topBL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.topBL.Name = "topBL";
             this.topBL.Size = new System.Drawing.Size(22, 24);
             this.topBL.TabIndex = 10;
@@ -218,9 +218,9 @@ namespace PocketCubeSolver
             // 
             // topBR
             // 
-            this.topBR.BackColor = System.Drawing.Color.Lime;
+            this.topBR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.topBR.Location = new System.Drawing.Point(257, 215);
-            this.topBR.Margin = new System.Windows.Forms.Padding(2);
+            this.topBR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.topBR.Name = "topBR";
             this.topBR.Size = new System.Drawing.Size(22, 24);
             this.topBR.TabIndex = 11;
@@ -228,9 +228,9 @@ namespace PocketCubeSolver
             // 
             // topTR
             // 
-            this.topTR.BackColor = System.Drawing.Color.Lime;
+            this.topTR.BackColor = System.Drawing.Color.White;
             this.topTR.Location = new System.Drawing.Point(257, 186);
-            this.topTR.Margin = new System.Windows.Forms.Padding(2);
+            this.topTR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.topTR.Name = "topTR";
             this.topTR.Size = new System.Drawing.Size(22, 24);
             this.topTR.TabIndex = 12;
@@ -238,9 +238,9 @@ namespace PocketCubeSolver
             // 
             // topTL
             // 
-            this.topTL.BackColor = System.Drawing.Color.Lime;
+            this.topTL.BackColor = System.Drawing.Color.Yellow;
             this.topTL.Location = new System.Drawing.Point(230, 186);
-            this.topTL.Margin = new System.Windows.Forms.Padding(2);
+            this.topTL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.topTL.Name = "topTL";
             this.topTL.Size = new System.Drawing.Size(22, 24);
             this.topTL.TabIndex = 9;
@@ -248,9 +248,9 @@ namespace PocketCubeSolver
             // 
             // frontBL
             // 
-            this.frontBL.BackColor = System.Drawing.Color.Yellow;
+            this.frontBL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.frontBL.Location = new System.Drawing.Point(230, 274);
-            this.frontBL.Margin = new System.Windows.Forms.Padding(2);
+            this.frontBL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frontBL.Name = "frontBL";
             this.frontBL.Size = new System.Drawing.Size(22, 24);
             this.frontBL.TabIndex = 10;
@@ -258,9 +258,9 @@ namespace PocketCubeSolver
             // 
             // frontBR
             // 
-            this.frontBR.BackColor = System.Drawing.Color.Yellow;
+            this.frontBR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.frontBR.Location = new System.Drawing.Point(257, 274);
-            this.frontBR.Margin = new System.Windows.Forms.Padding(2);
+            this.frontBR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frontBR.Name = "frontBR";
             this.frontBR.Size = new System.Drawing.Size(22, 24);
             this.frontBR.TabIndex = 11;
@@ -270,7 +270,7 @@ namespace PocketCubeSolver
             // 
             this.frontTR.BackColor = System.Drawing.Color.Yellow;
             this.frontTR.Location = new System.Drawing.Point(257, 245);
-            this.frontTR.Margin = new System.Windows.Forms.Padding(2);
+            this.frontTR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frontTR.Name = "frontTR";
             this.frontTR.Size = new System.Drawing.Size(22, 24);
             this.frontTR.TabIndex = 12;
@@ -280,7 +280,7 @@ namespace PocketCubeSolver
             // 
             this.frontTL.BackColor = System.Drawing.Color.Yellow;
             this.frontTL.Location = new System.Drawing.Point(230, 245);
-            this.frontTL.Margin = new System.Windows.Forms.Padding(2);
+            this.frontTL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.frontTL.Name = "frontTL";
             this.frontTL.Size = new System.Drawing.Size(22, 24);
             this.frontTL.TabIndex = 9;
@@ -288,9 +288,9 @@ namespace PocketCubeSolver
             // 
             // rightBL
             // 
-            this.rightBL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.rightBL.BackColor = System.Drawing.Color.Lime;
             this.rightBL.Location = new System.Drawing.Point(284, 215);
-            this.rightBL.Margin = new System.Windows.Forms.Padding(2);
+            this.rightBL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rightBL.Name = "rightBL";
             this.rightBL.Size = new System.Drawing.Size(22, 24);
             this.rightBL.TabIndex = 10;
@@ -298,9 +298,9 @@ namespace PocketCubeSolver
             // 
             // rightBR
             // 
-            this.rightBR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.rightBR.BackColor = System.Drawing.Color.Blue;
             this.rightBR.Location = new System.Drawing.Point(311, 215);
-            this.rightBR.Margin = new System.Windows.Forms.Padding(2);
+            this.rightBR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rightBR.Name = "rightBR";
             this.rightBR.Size = new System.Drawing.Size(22, 24);
             this.rightBR.TabIndex = 11;
@@ -308,9 +308,9 @@ namespace PocketCubeSolver
             // 
             // rightTR
             // 
-            this.rightTR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.rightTR.BackColor = System.Drawing.Color.Red;
             this.rightTR.Location = new System.Drawing.Point(311, 186);
-            this.rightTR.Margin = new System.Windows.Forms.Padding(2);
+            this.rightTR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rightTR.Name = "rightTR";
             this.rightTR.Size = new System.Drawing.Size(22, 24);
             this.rightTR.TabIndex = 12;
@@ -318,9 +318,9 @@ namespace PocketCubeSolver
             // 
             // rightTL
             // 
-            this.rightTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.rightTL.BackColor = System.Drawing.Color.Red;
             this.rightTL.Location = new System.Drawing.Point(284, 186);
-            this.rightTL.Margin = new System.Windows.Forms.Padding(2);
+            this.rightTL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rightTL.Name = "rightTL";
             this.rightTL.Size = new System.Drawing.Size(22, 24);
             this.rightTL.TabIndex = 9;
@@ -390,7 +390,7 @@ namespace PocketCubeSolver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 366);
+            this.ClientSize = new System.Drawing.Size(549, 368);
             this.Controls.Add(this.labelFront);
             this.Controls.Add(this.labelRight);
             this.Controls.Add(this.labelTop);
@@ -423,7 +423,7 @@ namespace PocketCubeSolver
             this.Controls.Add(this.bottomTL);
             this.Controls.Add(this.buttonSolve);
             this.Controls.Add(this.instructions);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Input";
             this.Text = "Solution";
             this.ResumeLayout(false);
