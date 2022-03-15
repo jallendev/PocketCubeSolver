@@ -41,7 +41,17 @@ namespace PocketCubeSolver
 
             String language = languageBox.Text;
 
-            if (language.Equals("French"))
+            if (language.Equals("English"))
+            {
+                label1.Text = "Language: ";
+                label2.Text = "Select Language: ";
+                label3.Text = "English";
+                homeButton.Text = "Home";
+                BackButton.Text = "Back";
+
+
+            }
+            else if (language.Equals("French"))
             {
                 label1.Text = "Language: ";
                 label2.Text = "Selectionner Langue: ";
@@ -49,14 +59,26 @@ namespace PocketCubeSolver
                 homeButton.Text = "Accueil";
                 BackButton.Text = "Retour";
 
-           
+                MainMenu.testInstance.testLabel.Text = "FRENCH";
+                MainMenu.testInstance.Show();
             }
-            
+            else if (language.Equals("Spanish"))
+            {
+                label1.Text = "Idioma: ";
+                label2.Text = "Seleccionar Idioma: ";
+                label3.Text = "Español";
+                homeButton.Text = "Casa";
+                BackButton.Text = "Regresa";
+
+
+            }
+
         }
+
 
         private void LanguagesMenu_Load(object sender, EventArgs e)
         {
-            languageBox.SelectedIndex = 1;
+            //languageBox.SelectedIndex = 1;
         }
     }
 }

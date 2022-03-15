@@ -5,12 +5,16 @@ namespace PocketCubeSolver
 {
     public partial class MainMenu : Form
     {
-
+        public static MainMenu testInstance;
+        public Label testLabel;
       
         public MainMenu()
         {
             InitializeComponent();
-   
+            testInstance = this;
+            testLabel = menuLabel;
+
+
         }
 
         //Exits the form
