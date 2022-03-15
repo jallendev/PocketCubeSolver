@@ -33,7 +33,7 @@ namespace PocketCubeSolver
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonBack = new System.Windows.Forms.Button();
+            this.buttonInput = new System.Windows.Forms.Button();
             this.buttonNext = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,7 +47,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step6Arrows;
+            this.pictureBox4.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step3;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(420, 384);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -58,7 +58,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step5Arrows;
+            this.pictureBox3.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step2;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(70, 384);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -69,7 +69,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step2WithArrows;
+            this.pictureBox2.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step1;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(420, 63);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -80,7 +80,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step1WithArrows;
+            this.pictureBox1.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step0;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(70, 63);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -89,17 +89,17 @@ namespace PocketCubeSolver
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // buttonBack
+            // buttonInput
             // 
-            this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonBack.Location = new System.Drawing.Point(12, 712);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(137, 43);
-            this.buttonBack.TabIndex = 26;
-            this.buttonBack.Text = "Return to Input";
-            this.buttonBack.UseVisualStyleBackColor = true;
-            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            this.buttonInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonInput.Location = new System.Drawing.Point(12, 712);
+            this.buttonInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonInput.Name = "buttonInput";
+            this.buttonInput.Size = new System.Drawing.Size(137, 43);
+            this.buttonInput.TabIndex = 26;
+            this.buttonInput.Text = "Return to Input";
+            this.buttonInput.UseVisualStyleBackColor = true;
+            this.buttonInput.Click += new System.EventHandler(this.buttonInput_Click);
             // 
             // buttonNext
             // 
@@ -163,7 +163,7 @@ namespace PocketCubeSolver
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonNext);
-            this.Controls.Add(this.buttonBack);
+            this.Controls.Add(this.buttonInput);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -185,7 +185,7 @@ namespace PocketCubeSolver
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Button buttonInput;
         private System.Windows.Forms.Button buttonNext;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
