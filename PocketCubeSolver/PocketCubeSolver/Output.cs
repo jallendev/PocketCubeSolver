@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace PocketCubeSolver
 {
-    public partial class Output : Form
+    public partial class Output : Form //sorry in advance for my low-tier programming abilities
     {
         List<int> solution;
         int pos, newpos = 0;
         public Output()
         {
             InitializeComponent();
-            setSolution(solution);
+            setSolution(solution); //change this to however Joseph is inputting the solution
             for (int i = pos; i < solution.Count() || i - pos < 4; i++)
             {
                 if (i - pos == 0)
@@ -46,7 +46,8 @@ namespace PocketCubeSolver
             pos = newpos;
         }
 
-        public Bitmap choosePhoto(int movetype)
+        //Chooses one of the twelve images to display on the screen based on the movetype from the solution
+        private Bitmap choosePhoto(int movetype)
         {
             if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.Step0);
             if (movetype == 1) return new Bitmap(PocketCubeSolver.Properties.Resources.Step1);
@@ -72,6 +73,7 @@ namespace PocketCubeSolver
             input.Activate();
         }
 
+        //Displays the next four steps (or less, depending on how many are left) on the screen
         private void buttonNext_Click(object sender, EventArgs e)
         {
             if (pos < solution.Count()) pos += 1;
@@ -102,6 +104,7 @@ namespace PocketCubeSolver
             pos = newpos;
         }
 
+        //Adds in the computed solution steps from the input
         public void setSolution(List<int> sol)
         {
             solution = sol;
