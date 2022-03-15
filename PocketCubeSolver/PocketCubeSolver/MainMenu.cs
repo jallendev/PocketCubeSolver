@@ -5,16 +5,19 @@ namespace PocketCubeSolver
 {
     public partial class MainMenu : Form
     {
+
+      
         public MainMenu()
         {
             InitializeComponent();
+   
         }
 
         //Exits the form
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             // Need a quit command ?
-            this.Hide();
+            this.Close();
         }
 
         //Opens the options menu

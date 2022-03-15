@@ -166,5 +166,13 @@ namespace PocketCubeSolver
         {
             frontBR.BackColor = nextColor(frontBR.BackColor);
         }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            Form home = new MainMenu();
+            home.Show();
+            this.Hide();
+            home.Activate();
+        }
     }
 }

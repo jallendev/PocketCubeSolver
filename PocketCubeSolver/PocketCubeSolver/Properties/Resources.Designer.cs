@@ -113,6 +113,16 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BlankCube {
+            get {
+                object obj = ResourceManager.GetObject("BlankCube", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button {
             get {
                 object obj = ResourceManager.GetObject("button", resourceCulture);
@@ -386,6 +396,16 @@ namespace PocketCubeSolver.Properties {
         internal static System.Drawing.Bitmap exit_normal {
             get {
                 object obj = ResourceManager.GetObject("exit_normal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gwen {
+            get {
+                object obj = ResourceManager.GetObject("Gwen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
