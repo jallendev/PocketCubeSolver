@@ -48,7 +48,7 @@ namespace PocketCubeSolver
 
         public Bitmap choosePhoto(int movetype)
         {
-            if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.Step1WithArrows);
+            if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.);
             if (movetype == 1) return new Bitmap(PocketCubeSolver.Properties.Resources.Step2WithArrows);
             if (movetype == 2) return new Bitmap(PocketCubeSolver.Properties.Resources.Step3Arrows);
             if (movetype == 3) return new Bitmap(PocketCubeSolver.Properties.Resources.Step4Arrows);
