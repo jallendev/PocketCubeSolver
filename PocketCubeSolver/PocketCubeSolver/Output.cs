@@ -14,7 +14,7 @@ namespace PocketCubeSolver
     public partial class Output : Form
     {
         List<int> solution;
-        int pos = 0;
+        int pos, newpos = 0;
         public Output()
         {
             InitializeComponent();
@@ -41,7 +41,9 @@ namespace PocketCubeSolver
                     label4.Text = ("Step " + (i + 1));
                     pictureBox2.Image = choosePhoto(i);
                 }
+                newpos = i;
             }
+            pos = newpos;
         }
 
         public Bitmap choosePhoto(int movetype)
@@ -95,7 +97,9 @@ namespace PocketCubeSolver
                     label4.Text = ("Step " + (i + 1));
                     pictureBox4.Image = choosePhoto(i);
                 }
+                newpos = i;
             }
+            pos = newpos;
         }
     }
 }
