@@ -47,7 +47,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step6Arrows;
+            this.pictureBox4.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step3;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Location = new System.Drawing.Point(420, 384);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -58,7 +58,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step5Arrows;
+            this.pictureBox3.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step2;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(70, 384);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -69,7 +69,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step2WithArrows;
+            this.pictureBox2.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step1;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(420, 63);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -80,7 +80,7 @@ namespace PocketCubeSolver
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step1WithArrows;
+            this.pictureBox1.BackgroundImage = global::PocketCubeSolver.Properties.Resources.Step0;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(70, 63);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

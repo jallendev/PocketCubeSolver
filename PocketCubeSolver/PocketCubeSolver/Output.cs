@@ -48,18 +48,18 @@ namespace PocketCubeSolver
 
         public Bitmap choosePhoto(int movetype)
         {
-            if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.Step1);
-            if (movetype == 1) return new Bitmap(PocketCubeSolver.Properties.Resources.Step2WithArrows);
-            if (movetype == 2) return new Bitmap(PocketCubeSolver.Properties.Resources.Step3Arrows);
-            if (movetype == 3) return new Bitmap(PocketCubeSolver.Properties.Resources.Step4Arrows);
-            if (movetype == 4) return new Bitmap(PocketCubeSolver.Properties.Resources.Step5Arrows);
-            if (movetype == 5) return new Bitmap(PocketCubeSolver.Properties.Resources.Step6Arrows);
-            if (movetype == 6) return new Bitmap(PocketCubeSolver.Properties.Resources.Step7Arrows);
-            if (movetype == 7) return new Bitmap(PocketCubeSolver.Properties.Resources.Step8Arrows);
-            if (movetype == 8) return new Bitmap(PocketCubeSolver.Properties.Resources.Step9Arrows);
-            if (movetype == 9) return new Bitmap(PocketCubeSolver.Properties.Resources.Step10Arrows);
-            if (movetype == 10) return new Bitmap(PocketCubeSolver.Properties.Resources.Step11Arrows);
-            if (movetype == 11) return new Bitmap(PocketCubeSolver.Properties.Resources.Step12Arrows);
+            if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.Step0);
+            if (movetype == 1) return new Bitmap(PocketCubeSolver.Properties.Resources.Step1);
+            if (movetype == 2) return new Bitmap(PocketCubeSolver.Properties.Resources.Step2);
+            if (movetype == 3) return new Bitmap(PocketCubeSolver.Properties.Resources.Step3);
+            if (movetype == 4) return new Bitmap(PocketCubeSolver.Properties.Resources.Step4);
+            if (movetype == 5) return new Bitmap(PocketCubeSolver.Properties.Resources.Step5);
+            if (movetype == 6) return new Bitmap(PocketCubeSolver.Properties.Resources.Step6);
+            if (movetype == 7) return new Bitmap(PocketCubeSolver.Properties.Resources.Step7);
+            if (movetype == 8) return new Bitmap(PocketCubeSolver.Properties.Resources.Step8);
+            if (movetype == 9) return new Bitmap(PocketCubeSolver.Properties.Resources.Step9);
+            if (movetype == 10) return new Bitmap(PocketCubeSolver.Properties.Resources.Step10);
+            if (movetype == 11) return new Bitmap(PocketCubeSolver.Properties.Resources.Step11);
             return null;
         }
 

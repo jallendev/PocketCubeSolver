@@ -583,9 +583,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step10Arrows {
+        internal static System.Drawing.Bitmap Step0 {
             get {
-                object obj = ResourceManager.GetObject("Step10Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,9 +593,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step11Arrows {
+        internal static System.Drawing.Bitmap Step1 {
             get {
-                object obj = ResourceManager.GetObject("Step11Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -603,9 +603,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step12Arrows {
+        internal static System.Drawing.Bitmap Step10 {
             get {
-                object obj = ResourceManager.GetObject("Step12Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,9 +613,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step1WithArrows {
+        internal static System.Drawing.Bitmap Step11 {
             get {
-                object obj = ResourceManager.GetObject("Step1WithArrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -623,9 +623,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step2WithArrows {
+        internal static System.Drawing.Bitmap Step2 {
             get {
-                object obj = ResourceManager.GetObject("Step2WithArrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +633,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step3Arrows {
+        internal static System.Drawing.Bitmap Step3 {
             get {
-                object obj = ResourceManager.GetObject("Step3Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,9 +643,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step4Arrows {
+        internal static System.Drawing.Bitmap Step4 {
             get {
-                object obj = ResourceManager.GetObject("Step4Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,9 +653,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step5Arrows {
+        internal static System.Drawing.Bitmap Step5 {
             get {
-                object obj = ResourceManager.GetObject("Step5Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,9 +663,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step6Arrows {
+        internal static System.Drawing.Bitmap Step6 {
             get {
-                object obj = ResourceManager.GetObject("Step6Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,9 +673,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step7Arrows {
+        internal static System.Drawing.Bitmap Step7 {
             get {
-                object obj = ResourceManager.GetObject("Step7Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -683,9 +683,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step8Arrows {
+        internal static System.Drawing.Bitmap Step8 {
             get {
-                object obj = ResourceManager.GetObject("Step8Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -693,9 +693,9 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Step9Arrows {
+        internal static System.Drawing.Bitmap Step9 {
             get {
-                object obj = ResourceManager.GetObject("Step9Arrows", resourceCulture);
+                object obj = ResourceManager.GetObject("Step9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
