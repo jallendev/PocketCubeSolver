@@ -19,7 +19,7 @@ namespace PocketCubeSolver
         {
             InitializeComponent();
             setSolution(solution);
-            for (int i = pos; i < solution.Count() || i - pos < 4; i++)
+            for (int i = pos; i < solution.Count() || i - pos >= 4; i++)
             {
                 if (i - pos == 0)
                 {
@@ -75,7 +75,7 @@ namespace PocketCubeSolver
         private void buttonNext_Click(object sender, EventArgs e)
         {
             if (pos < solution.Count()) pos += 1;
-            for (int i = pos; i < solution.Count() || i - pos < 4; i++)
+            for (int i = pos; i < solution.Count() || i - pos >= 4; i++)
             {
                 if (i - pos == 0)
                 {
