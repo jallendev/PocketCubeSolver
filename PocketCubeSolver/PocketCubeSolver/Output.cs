@@ -14,7 +14,7 @@ namespace PocketCubeSolver
     public partial class Output : Form //sorry in advance for my low-tier programming abilities
     {
         List<int> solution = new List<int>();
-        List<int> testSol = new List<int>() { 3, 5, 1, 11, 0, 2, 7, 9 };
+        List<int> testSol = new List<int>() { 3, 5, 1, 11, 0, 2, 7, 9, 8, -1 };
         
         int pos = -1, newpos = -1;
 
@@ -28,6 +28,7 @@ namespace PocketCubeSolver
         //Chooses one of the twelve images to display on the screen based on the movetype from the solution
         private Bitmap choosePhoto(int movetype)
         {
+            if (movetype == -1) return new Bitmap(PocketCubeSolver.Properties.Resources.BlankCube1);
             if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.Step0);
             if (movetype == 1) return new Bitmap(PocketCubeSolver.Properties.Resources.Step1);
             if (movetype == 2) return new Bitmap(PocketCubeSolver.Properties.Resources.Step2);
@@ -51,29 +52,39 @@ namespace PocketCubeSolver
             for (int i = pos; i < solution.Count() || i - pos < 4; i++)
             {
                 if (i - pos >= 4) break;
+                if (i >= solution.Count())
+                {
+                    Console.WriteLine("No more moves!");
+                    buttonNext.Enabled = false;
+                    break;
+                }
                 //Console.WriteLine("Before loop: i - Pos = " + (i - pos));
                 if (i - pos == 0)
                 {
                     label1.Text = ("Step " + (i + 1));
                     pictureBox1.Image = choosePhoto(solution[i]);
+                    if (solution[i] == -1) label1.Text = ("Solved!");
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 if (i - pos == 1)
                 {
                     label2.Text = ("Step " + (i + 1));
                     pictureBox2.Image = choosePhoto(solution[i]);
+                    if (solution[i] == -1) label2.Text = ("Solved!");
                     pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 if (i - pos == 2)
                 {
                     label3.Text = ("Step " + (i + 1));
                     pictureBox3.Image = choosePhoto(solution[i]);
+                    if (solution[i] == -1) label3.Text = ("Solved!");
                     pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 if (i - pos == 3)
                 {
                     label4.Text = ("Step " + (i + 1));
                     pictureBox4.Image = choosePhoto(solution[i]);
+                    if (solution[i] == -1) label4.Text = ("Solved!");
                     pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 newpos = i;
