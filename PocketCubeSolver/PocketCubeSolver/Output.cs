@@ -18,7 +18,7 @@ namespace PocketCubeSolver
         public Output()
         {
             InitializeComponent();
-
+            setSolution(solution);
             for (int i = pos; i < solution.Count() || i - pos >= 4; i++)
             {
                 if (i - pos == 0)
@@ -100,6 +100,11 @@ namespace PocketCubeSolver
                 newpos = i;
             }
             pos = newpos;
+        }
+
+        public void setSolution(List<int> sol)
+        {
+            solution = sol;
         }
     }
 }
