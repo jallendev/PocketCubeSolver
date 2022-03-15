@@ -14,30 +14,51 @@ namespace PocketCubeSolver
     public partial class Output : Form
     {
         List<int> solution;
-        List<int> photos;
         int pos = 0;
         public Output()
         {
             InitializeComponent();
+
             for (int i = pos; i < solution.Count() || i - pos >= 4; i++)
             {
-                photos.Add(choosePhoto(i));
+                if (i - pos == 0)
+                {
+                    label1.Text = ("Step " + (i + 1));
+                    pictureBox1.Image = choosePhoto(i);
+                }
+                if (i - pos == 1)
+                {
+                    label2.Text = ("Step " + (i + 1));
+                    pictureBox2.Image = choosePhoto(i);
+                }
+                if (i - pos == 2)
+                {
+                    label3.Text = ("Step " + (i + 1));
+                    pictureBox2.Image = choosePhoto(i);
+                }
+                if (i - pos == 3)
+                {
+                    label4.Text = ("Step " + (i + 1));
+                    pictureBox2.Image = choosePhoto(i);
+                }
             }
-            showPhotos();
         }
 
-        public int choosePhoto(int i)
+        public Bitmap choosePhoto(int movetype)
         {
-            int movetype = solution.BinarySearch(i);
-            return movetype;
-        }
-
-        public void showPhotos()
-        {
-            pictureBox1.Image = PocketCubeSolver.Properties.Resources.Step3Arrows;
-            pictureBox2.Image = PocketCubeSolver.Properties.Resources.Step3Arrows;
-            pictureBox3.Image = PocketCubeSolver.Properties.Resources.Step3Arrows;
-            pictureBox4.Image = PocketCubeSolver.Properties.Resources.Step3Arrows;
+            if (movetype == 0) return new Bitmap(PocketCubeSolver.Properties.Resources.Step1WithArrows);
+            if (movetype == 1) return new Bitmap(PocketCubeSolver.Properties.Resources.Step2WithArrows);
+            if (movetype == 2) return new Bitmap(PocketCubeSolver.Properties.Resources.Step3Arrows);
+            if (movetype == 3) return new Bitmap(PocketCubeSolver.Properties.Resources.Step4Arrows);
+            if (movetype == 4) return new Bitmap(PocketCubeSolver.Properties.Resources.Step5Arrows);
+            if (movetype == 5) return new Bitmap(PocketCubeSolver.Properties.Resources.Step6Arrows);
+            if (movetype == 6) return new Bitmap(PocketCubeSolver.Properties.Resources.Step7Arrows);
+            if (movetype == 7) return new Bitmap(PocketCubeSolver.Properties.Resources.Step8Arrows);
+            if (movetype == 8) return new Bitmap(PocketCubeSolver.Properties.Resources.Step9Arrows);
+            if (movetype == 9) return new Bitmap(PocketCubeSolver.Properties.Resources.Step10Arrows);
+            if (movetype == 10) return new Bitmap(PocketCubeSolver.Properties.Resources.Step11Arrows);
+            if (movetype == 11) return new Bitmap(PocketCubeSolver.Properties.Resources.Step12Arrows);
+            return null;
         }
 
         //Opens the input form
@@ -51,17 +72,30 @@ namespace PocketCubeSolver
 
         private void buttonNext_Click(object sender, EventArgs e)
         {
-            photos.Clear();
             pos += 1;
             for (int i = pos; i < solution.Count() || i - pos >= 4; i++)
             {
-                photos.Add(choosePhoto(i));
-                if (i - pos == 0) label1.Text = ("Step " + i);
-                if (i - pos == 1) label2.Text = ("Step " + i);
-                if (i - pos == 2) label3.Text = ("Step " + i);
-                if (i - pos == 3) label4.Text = ("Step " + i);
+                if (i - pos == 0)
+                {
+                    label1.Text = ("Step " + (i + 1));
+                    pictureBox1.Image = choosePhoto(i);
+                }
+                if (i - pos == 1) 
+                { 
+                    label2.Text = ("Step " + (i + 1));
+                    pictureBox2.Image = choosePhoto(i);
+                }
+                if (i - pos == 2) 
+                { 
+                    label3.Text = ("Step " + (i + 1));
+                    pictureBox3.Image = choosePhoto(i);
+                }
+                if (i - pos == 3) 
+                {
+                    label4.Text = ("Step " + (i + 1));
+                    pictureBox4.Image = choosePhoto(i);
+                }
             }
-            showPhotos();
         }
     }
 }
