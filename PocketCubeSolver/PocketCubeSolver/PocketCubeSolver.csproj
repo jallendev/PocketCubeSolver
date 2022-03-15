@@ -112,42 +112,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Step1WithArrows1.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step2WithArrows1.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step9Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step5Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step10Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step6Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step12Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step8Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step4Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step11Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step7Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Step3Arrows1.JPG" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Original1.png" />
   </ItemGroup>
   <ItemGroup>
