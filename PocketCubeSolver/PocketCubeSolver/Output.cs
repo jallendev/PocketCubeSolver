@@ -71,7 +71,7 @@ namespace PocketCubeSolver
             pos = newpos;
         }
 
-        //TO-DO: implement this?
+        //TO-DO: how to implement this?
         private void prev4Steps()
         {
 
@@ -86,10 +86,16 @@ namespace PocketCubeSolver
             input.Activate();
         }
 
-        //Displays the next four steps (or less, depending on how many are left) on the screen
+        //Action to occur when the Next button is pressed
         private void buttonNext_Click(object sender, EventArgs e)
         {
             next4Steps();
+        }
+
+        //Action to occur when the Previous button is pressed
+        private void buttonPrev_Click(object sender, EventArgs e)
+        {
+            prev4Steps();
         }
 
         //Adds in the computed solution steps from the input

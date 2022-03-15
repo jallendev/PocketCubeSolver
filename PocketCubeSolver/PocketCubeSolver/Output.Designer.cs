@@ -39,6 +39,7 @@ namespace PocketCubeSolver
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.buttonPrev = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -153,11 +154,24 @@ namespace PocketCubeSolver
             this.label4.TabIndex = 31;
             this.label4.Text = "Step 4";
             // 
+            // buttonPrev
+            // 
+            this.buttonPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonPrev.Location = new System.Drawing.Point(420, 712);
+            this.buttonPrev.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonPrev.Name = "buttonPrev";
+            this.buttonPrev.Size = new System.Drawing.Size(137, 43);
+            this.buttonPrev.TabIndex = 32;
+            this.buttonPrev.Text = "Previous Steps";
+            this.buttonPrev.UseVisualStyleBackColor = true;
+            this.buttonPrev.Click += new System.EventHandler(this.buttonPrev_Click);
+            // 
             // Output
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 766);
+            this.Controls.Add(this.buttonPrev);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -191,5 +205,6 @@ namespace PocketCubeSolver
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button buttonPrev;
     }
 }
