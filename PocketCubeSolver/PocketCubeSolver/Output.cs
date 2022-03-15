@@ -71,6 +71,12 @@ namespace PocketCubeSolver
             pos = newpos;
         }
 
+        //TO-DO: implement this?
+        private void prev4Steps()
+        {
+
+        }
+
         //Opens the input form
         private void buttonInput_Click(object sender, EventArgs e)
         {
