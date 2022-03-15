@@ -5,34 +5,49 @@ namespace PocketCubeSolver
 {
     public partial class MainMenu : Form
     {
+        public static MainMenu mainInstance;
+        public static OptionsMenu optionsInstance = new OptionsMenu();
+        public static AboutMenu aboutInstance = new AboutMenu();
+        public static LanguagesMenu languageInstance = new LanguagesMenu();
+        public static HelpMenu helpInstance = new HelpMenu();
+        public static Input inputInstance = new Input();
+        public static Output outputInstance = new Output();
+        
+
+        public Label mainLabel;
+      
         public MainMenu()
         {
             InitializeComponent();
+            mainInstance = this;
+            mainLabel = menuLabel;
+
+
         }
 
         //Exits the form
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             // Need a quit command ?
-            this.Hide();
+            this.Close();
         }
 
         //Opens the options menu
         private void option_Click(object sender, EventArgs e)
         {
-            Form option = new OptionsMenu();
-            option.Show();
+
+            OptionsMenu.optionsInstance.Show();
             this.Hide();
-            option.Activate();
+            OptionsMenu.optionsInstance.Activate();
         }
 
         //Opens the Input form
         private void startButton_Click(object sender, EventArgs e)
         {
-            Form input = new Input();
-            input.Show();
+
+            Input.inputInstance.Show();
             this.Hide();
-            input.Activate();
+            Input.inputInstance.Activate();
         }
     }
 }

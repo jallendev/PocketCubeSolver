@@ -12,11 +12,13 @@ namespace PocketCubeSolver
 {
     public partial class Input : Form
     {
+        public static Input inputInstance;
         // Colors of the rubix cube
         Color[] colors = new Color[] { Color.White, Color.Blue, Color.Red, Color.Lime, Color.FromArgb(255, 128, 0), Color.Yellow };
         public Input()
         {
             InitializeComponent();
+            inputInstance = this;
         }
 
         // Picks the next color, from the array colors, of cube when clicked on by user
@@ -39,10 +41,14 @@ namespace PocketCubeSolver
         // Sends the user to the output form by clicking the "Solve" button
         private void buttonSolve_Click(object sender, EventArgs e)
         {
-            Form output = new Output();
-            output.Show();
+            //Form output = new Output();
+            //output.Show();
+            //this.Hide();
+            //output.Activate();
+
+            Output.outputInstance.Show();
             this.Hide();
-            output.Activate();
+            Output.outputInstance.Activate();
         }
 
         //Event handlers for the panel color changes
@@ -165,6 +171,13 @@ namespace PocketCubeSolver
         private void frontBR_Click(object sender, EventArgs e)
         {
             frontBR.BackColor = nextColor(frontBR.BackColor);
+        }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            MainMenu.mainInstance.Show();
+            this.Hide();
+            MainMenu.mainInstance.Activate();
         }
     }
 }

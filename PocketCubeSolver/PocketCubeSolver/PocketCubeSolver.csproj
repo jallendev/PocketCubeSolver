@@ -49,11 +49,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutMenu.Designer.cs">
+      <DependentUpon>AboutMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpMenu.Designer.cs">
+      <DependentUpon>HelpMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Input.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Input.Designer.cs">
       <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguagesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanguagesMenu.Designer.cs">
+      <DependentUpon>LanguagesMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -75,8 +93,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutMenu.resx">
+      <DependentUpon>AboutMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpMenu.resx">
+      <DependentUpon>HelpMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Input.resx">
       <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguagesMenu.resx">
+      <DependentUpon>LanguagesMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
@@ -179,6 +206,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\start_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlankCube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gwen.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,18 +12,19 @@ namespace PocketCubeSolver
 {
     public partial class Output : Form
     {
+        public static Output outputInstance;
         public Output()
         {
             InitializeComponent();
+            outputInstance = this;
         }
 
         //Opens the input form
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            Form input = new Input();
-            input.Show();
+            Input.inputInstance.Show();
             this.Hide();
-            input.Activate();
+            Input.inputInstance.Activate();
         }
     }
 }
