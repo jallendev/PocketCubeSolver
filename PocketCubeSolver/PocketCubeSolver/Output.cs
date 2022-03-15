@@ -14,36 +14,12 @@ namespace PocketCubeSolver
     public partial class Output : Form //sorry in advance for my low-tier programming abilities
     {
         List<int> solution;
-        int pos, newpos = 0;
+        int pos, newpos = -1;
         public Output()
         {
             InitializeComponent();
             setSolution(solution); //change this to however Joseph is inputting the solution
-            for (int i = pos; i < solution.Count() || i - pos < 4; i++)
-            {
-                if (i - pos == 0)
-                {
-                    label1.Text = ("Step " + (i + 1));
-                    pictureBox1.Image = choosePhoto(i);
-                }
-                if (i - pos == 1)
-                {
-                    label2.Text = ("Step " + (i + 1));
-                    pictureBox2.Image = choosePhoto(i);
-                }
-                if (i - pos == 2)
-                {
-                    label3.Text = ("Step " + (i + 1));
-                    pictureBox2.Image = choosePhoto(i);
-                }
-                if (i - pos == 3)
-                {
-                    label4.Text = ("Step " + (i + 1));
-                    pictureBox2.Image = choosePhoto(i);
-                }
-                newpos = i;
-            }
-            pos = newpos;
+            next4Steps();
         }
 
         //Chooses one of the twelve images to display on the screen based on the movetype from the solution
@@ -64,6 +40,37 @@ namespace PocketCubeSolver
             return null;
         }
 
+        //Displays (up to) the next 4 steps required to solve the cube
+        private void next4Steps()
+        {
+            if (pos < solution.Count()) pos += 1;
+            for (int i = pos; i < solution.Count() || i - pos < 4; i++)
+            {
+                if (i - pos == 0)
+                {
+                    label1.Text = ("Step " + (i + 1));
+                    pictureBox1.Image = choosePhoto(solution[i]);
+                }
+                if (i - pos == 1)
+                {
+                    label2.Text = ("Step " + (i + 1));
+                    pictureBox2.Image = choosePhoto(solution[i]);
+                }
+                if (i - pos == 2)
+                {
+                    label3.Text = ("Step " + (i + 1));
+                    pictureBox3.Image = choosePhoto(solution[i]);
+                }
+                if (i - pos == 3)
+                {
+                    label4.Text = ("Step " + (i + 1));
+                    pictureBox4.Image = choosePhoto(solution[i]);
+                }
+                newpos = i;
+            }
+            pos = newpos;
+        }
+
         //Opens the input form
         private void buttonInput_Click(object sender, EventArgs e)
         {
@@ -76,32 +83,7 @@ namespace PocketCubeSolver
         //Displays the next four steps (or less, depending on how many are left) on the screen
         private void buttonNext_Click(object sender, EventArgs e)
         {
-            if (pos < solution.Count()) pos += 1;
-            for (int i = pos; i < solution.Count() || i - pos < 4; i++)
-            {
-                if (i - pos == 0)
-                {
-                    label1.Text = ("Step " + (i + 1));
-                    pictureBox1.Image = choosePhoto(i);
-                }
-                if (i - pos == 1) 
-                { 
-                    label2.Text = ("Step " + (i + 1));
-                    pictureBox2.Image = choosePhoto(i);
-                }
-                if (i - pos == 2) 
-                { 
-                    label3.Text = ("Step " + (i + 1));
-                    pictureBox3.Image = choosePhoto(i);
-                }
-                if (i - pos == 3) 
-                {
-                    label4.Text = ("Step " + (i + 1));
-                    pictureBox4.Image = choosePhoto(i);
-                }
-                newpos = i;
-            }
-            pos = newpos;
+            next4Steps();
         }
 
         //Adds in the computed solution steps from the input
