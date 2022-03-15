@@ -13,12 +13,15 @@ namespace PocketCubeSolver
 {
     public partial class Output : Form //sorry in advance for my low-tier programming abilities
     {
-        List<int> solution;
-        int pos, newpos = -1;
+        List<int> solution = new List<int>();
+        List<int> testSol = new List<int>() { 3, 5, 1, 11, 0, 2, 7, 9 };
+        
+        int pos = -1, newpos = -1;
+
         public Output()
         {
             InitializeComponent();
-            setSolution(solution); //TO-DO: change this to however Joseph is inputting the solution
+            setSolution(testSol); //TO-DO: change this to however Joseph is inputting the solution
             next4Steps();
         }
 
@@ -43,32 +46,43 @@ namespace PocketCubeSolver
         //Displays (up to) the next 4 steps required to solve the cube
         private void next4Steps()
         {
+            //Console.WriteLine("Before loop: Pos = " + pos);
             if (pos < solution.Count()) pos += 1;
             for (int i = pos; i < solution.Count() || i - pos < 4; i++)
             {
+                if (i - pos >= 4) break;
+                //Console.WriteLine("Before loop: i - Pos = " + (i - pos));
                 if (i - pos == 0)
                 {
                     label1.Text = ("Step " + (i + 1));
                     pictureBox1.Image = choosePhoto(solution[i]);
+                    pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 if (i - pos == 1)
                 {
                     label2.Text = ("Step " + (i + 1));
                     pictureBox2.Image = choosePhoto(solution[i]);
+                    pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 if (i - pos == 2)
                 {
                     label3.Text = ("Step " + (i + 1));
                     pictureBox3.Image = choosePhoto(solution[i]);
+                    pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 if (i - pos == 3)
                 {
                     label4.Text = ("Step " + (i + 1));
                     pictureBox4.Image = choosePhoto(solution[i]);
+                    pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
                 newpos = i;
+                //Console.WriteLine("Inside loop: Newpos = " + newpos + ", i = " + i);
+                //Console.WriteLine("Inside loop: Pos = " + pos);
+
             }
             pos = newpos;
+            //Console.WriteLine("After loop: Pos = " + pos);
         }
 
         //TO-DO: how to implement this?

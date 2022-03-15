@@ -96,7 +96,7 @@ namespace PocketCubeSolver
             this.buttonInput.Location = new System.Drawing.Point(12, 712);
             this.buttonInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonInput.Name = "buttonInput";
-            this.buttonInput.Size = new System.Drawing.Size(137, 43);
+            this.buttonInput.Size = new System.Drawing.Size(151, 43);
             this.buttonInput.TabIndex = 26;
             this.buttonInput.Text = "Return to Input";
             this.buttonInput.UseVisualStyleBackColor = true;
@@ -157,10 +157,10 @@ namespace PocketCubeSolver
             // buttonPrev
             // 
             this.buttonPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonPrev.Location = new System.Drawing.Point(420, 712);
+            this.buttonPrev.Location = new System.Drawing.Point(406, 712);
             this.buttonPrev.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPrev.Name = "buttonPrev";
-            this.buttonPrev.Size = new System.Drawing.Size(137, 43);
+            this.buttonPrev.Size = new System.Drawing.Size(151, 43);
             this.buttonPrev.TabIndex = 32;
             this.buttonPrev.Text = "Previous Steps";
             this.buttonPrev.UseVisualStyleBackColor = true;
