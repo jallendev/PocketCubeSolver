@@ -12,9 +12,11 @@ namespace PocketCubeSolver
 {
     public partial class AboutMenu : Form
     {
+        public static AboutMenu aboutInstance;
         public AboutMenu()
         {
             InitializeComponent();
+            aboutInstance = this;
         }
 
         private void aboutText_TextChanged(object sender, EventArgs e)
@@ -24,18 +26,16 @@ namespace PocketCubeSolver
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            Form optionsMenu = new OptionsMenu();
-            optionsMenu.Show();
+            OptionsMenu.optionsInstance.Show();
             this.Hide();
-            optionsMenu.Activate();
+            OptionsMenu.optionsInstance.Activate();
         }
 
         private void homeButton_Click(object sender, EventArgs e)
         {
-            Form mainMenu = new MainMenu();
-            mainMenu.Show();
+            MainMenu.mainInstance.Show();
             this.Hide();
-            mainMenu.Activate();
+            MainMenu.mainInstance.Activate();
         }
     }
 }

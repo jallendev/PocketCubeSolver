@@ -12,27 +12,28 @@ namespace PocketCubeSolver
 {
     public partial class LanguagesMenu : Form
     {
+        public static LanguagesMenu languageInstance;
         
         public LanguagesMenu()
         {
             InitializeComponent();
-            
+            languageInstance = this;
         }
 
         private void homeButton_Click(object sender, EventArgs e)
         {
-            Form mainMenu = new MainMenu();
-            mainMenu.Show();
+
+            MainMenu.mainInstance.Show();
             this.Hide();
-            mainMenu.Activate();
+            MainMenu.mainInstance.Activate();
+           
         }
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            Form optionsMenu = new OptionsMenu();
-            optionsMenu.Show();
+            OptionsMenu.optionsInstance.Show();
             this.Hide();
-            optionsMenu.Activate();
+            OptionsMenu.optionsInstance.Activate();
         }
 
         private void languageBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -59,8 +60,8 @@ namespace PocketCubeSolver
                 homeButton.Text = "Accueil";
                 BackButton.Text = "Retour";
 
-                MainMenu.testInstance.testLabel.Text = "FRENCH";
-                MainMenu.testInstance.Show();
+                MainMenu.mainInstance.mainLabel.Text = "FRENCH";
+                //MainMenu.mainInstance.Show();
             }
             else if (language.Equals("Spanish"))
             {

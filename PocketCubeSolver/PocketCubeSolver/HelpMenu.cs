@@ -12,25 +12,25 @@ namespace PocketCubeSolver
 {
     public partial class HelpMenu : Form
     {
+        public static HelpMenu helpInstance;
         public HelpMenu()
         {
             InitializeComponent();
+            helpInstance = this;
         }
 
         private void homeButton_Click(object sender, EventArgs e)
         {
-            Form mainMenu = new MainMenu();
-            mainMenu.Show();
+            MainMenu.mainInstance.Show();
             this.Hide();
-            mainMenu.Activate();
+            MainMenu.mainInstance.Activate();
         }
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            Form optionsMenu = new OptionsMenu();
-            optionsMenu.Show();
+            OptionsMenu.optionsInstance.Show();
             this.Hide();
-            optionsMenu.Activate();
+            OptionsMenu.optionsInstance.Activate();
         }
     }
 }
