@@ -18,6 +18,8 @@ namespace PocketCubeSolver
         public Label mainLabel2;
 
         public PictureBox startButtonInstance;
+        public PictureBox optionButtonInstance;
+        public PictureBox exitButtonInstance;
       
         public MainMenu()
         {
@@ -27,6 +29,8 @@ namespace PocketCubeSolver
             mainLabel2 = label1;
 
             startButtonInstance = startButton;
+            optionButtonInstance = optionButton;
+            exitButtonInstance = exitButton;
 
 
         }

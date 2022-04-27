@@ -403,6 +403,26 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exitButtonFrench {
+            get {
+                object obj = ResourceManager.GetObject("exitButtonFrench", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frenchStartButton {
+            get {
+                object obj = ResourceManager.GetObject("frenchStartButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gwen {
             get {
                 object obj = ResourceManager.GetObject("Gwen", resourceCulture);
