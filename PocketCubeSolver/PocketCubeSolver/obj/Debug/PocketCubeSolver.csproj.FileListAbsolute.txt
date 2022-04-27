@@ -12,7 +12,6 @@ C:\Users\j3j9j\Source\Repos\jallendev\PocketCubeSolver\PocketCubeSolver\PocketCu
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\PocketCubeSolver.exe.config
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\PocketCubeSolver.exe
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\bin\Debug\PocketCubeSolver.pdb
-C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.AssemblyReference.cache
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.Input.resources
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.Output.resources
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.Properties.Resources.resources

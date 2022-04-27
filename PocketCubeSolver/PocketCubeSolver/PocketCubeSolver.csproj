@@ -213,5 +213,8 @@
   <ItemGroup>
     <None Include="Resources\Gwen.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\frenchStartButton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -53,6 +53,8 @@ namespace PocketCubeSolver
                 MainMenu.mainInstance.mainLabel.Text = "2x2 Rubik's Cube";
                 MainMenu.mainInstance.mainLabel2.Text = "Solver";
 
+               // MainMenu.mainInstance.startButtonInstance.Image = Properties.Resources.frenchStartButton;
+
 
             }
             else if (language.Equals("French"))
