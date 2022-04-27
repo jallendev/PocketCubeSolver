@@ -13,7 +13,7 @@ namespace PocketCubeSolver
 {
     public partial class Output : Form //sorry in advance for my low-tier programming abilities
     {
-        List<int> solution = new List<int>();
+        List<int> solution = new List<int>(); //TO-DO: put Joseph's solved location into this list
         List<int> testSol = new List<int>() { 3, 5, 1, 11, 0, 2, 7, 9, 8, -1 };
         
         int pos = -1, newpos = -1;
@@ -23,6 +23,7 @@ namespace PocketCubeSolver
             InitializeComponent();
             setSolution(testSol); //TO-DO: change this to however Joseph is inputting the solution
             next4Steps();
+            buttonPrev.Enabled = false;
         }
 
         //Chooses one of the twelve images to display on the screen based on the movetype from the solution
@@ -48,13 +49,16 @@ namespace PocketCubeSolver
         private void next4Steps()
         {
             //Console.WriteLine("Before loop: Pos = " + pos);
-            if (pos < solution.Count()) pos += 1;
+            if (pos < solution.Count())
+            {
+                pos += 1;
+            }
             for (int i = pos; i < solution.Count() || i - pos < 4; i++)
             {
                 if (i - pos >= 4) break;
                 if (i >= solution.Count())
                 {
-                    Console.WriteLine("No more moves!");
+                    //Console.WriteLine("No more moves!");
                     buttonNext.Enabled = false;
                     break;
                 }
@@ -93,13 +97,22 @@ namespace PocketCubeSolver
 
             }
             pos = newpos;
+            if (pos > 4) buttonPrev.Enabled = true;
             //Console.WriteLine("After loop: Pos = " + pos);
         }
 
-        //TO-DO: how to implement this?
         private void prev4Steps()
         {
-
+            Console.WriteLine("prev4Steps called: pos = " + pos);
+            pos = pos - 5 - (pos % 4);
+            if (pos < 0)
+            {
+                pos = -1;
+                buttonPrev.Enabled = false;
+            }
+            Console.WriteLine("After math: pos = " + pos);
+            next4Steps();
+            buttonNext.Enabled = true;
         }
 
         //Opens the input form
