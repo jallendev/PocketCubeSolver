@@ -208,12 +208,21 @@
     <None Include="Resources\start_normal.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BlankCube.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Gwen.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Step11.png" />
+    <None Include="Resources\Step10.png" />
+    <None Include="Resources\Step9.png" />
+    <None Include="Resources\Step8.png" />
+    <None Include="Resources\Step7.png" />
+    <None Include="Resources\Step6.png" />
+    <None Include="Resources\Step5.png" />
+    <None Include="Resources\Step4.png" />
+    <None Include="Resources\Step3.png" />
+    <None Include="Resources\Step2.png" />
+    <None Include="Resources\Step1.png" />
+    <None Include="Resources\Step0.png" />
     <None Include="Resources\background2.jpg" />
     <None Include="Resources\background.jpg" />
     <None Include="Resources\RubiksLogo.PNG" />
@@ -230,6 +239,7 @@
     <None Include="Resources\aboutUsFrench.png" />
     <None Include="Resources\commencerbutton.png" />
     <None Include="Resources\exitButtonFrench.png" />
+    <None Include="Resources\BlankCube.png" />
     <Content Include="Resources\frenchStartButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
