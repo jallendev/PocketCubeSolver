@@ -15,6 +15,8 @@ namespace PocketCubeSolver
         public static AboutMenu aboutInstance;
 
         public Label aboutLabel;
+        public TextBox aboutDescription;
+        public LinkLabel github;
         public Button backButton;
         public Button homeButtonInstance;
 
@@ -24,6 +26,8 @@ namespace PocketCubeSolver
             aboutInstance = this;
 
             aboutLabel = label1;
+            aboutDescription = aboutText;
+            github = gitHubLink;
             backButton = BackButton;
             homeButtonInstance = homeButton;
         }
@@ -45,6 +49,20 @@ namespace PocketCubeSolver
             MainMenu.mainInstance.Show();
             this.Hide();
             MainMenu.mainInstance.Activate();
+        }
+
+        private void samsonPicture_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gitHubLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Specify that the link was visited.
+            this.gitHubLink.LinkVisited = true;
+
+            // Navigate to a URL.
+            System.Diagnostics.Process.Start("https://github.com/jallendev/PocketCubeSolver");
         }
     }
 }

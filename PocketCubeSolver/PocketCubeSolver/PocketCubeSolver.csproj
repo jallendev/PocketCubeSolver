@@ -214,6 +214,11 @@
     <None Include="Resources\Gwen.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Samson.jpg" />
+    <None Include="Resources\Jay.PNG" />
+    <None Include="Resources\Jay.jpg" />
+    <None Include="Resources\Joseph.jpg" />
+    <None Include="Resources\OULogo.png" />
     <None Include="Resources\helpFrench.png" />
     <None Include="Resources\languageFrench.png" />
     <None Include="Resources\mainmenuFrench.png" />

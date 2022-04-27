@@ -493,6 +493,26 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Jay {
+            get {
+                object obj = ResourceManager.GetObject("Jay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Joseph {
+            get {
+                object obj = ResourceManager.GetObject("Joseph", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap languageFrench {
             get {
                 object obj = ResourceManager.GetObject("languageFrench", resourceCulture);
@@ -603,6 +623,16 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OULogo {
+            get {
+                object obj = ResourceManager.GetObject("OULogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_2x2_mini_rubik_s_cube_png_image_2965080 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-2x2-mini-rubik-s-cube-png-image_2965080", resourceCulture);
@@ -616,6 +646,16 @@ namespace PocketCubeSolver.Properties {
         internal static System.Drawing.Bitmap pngtree_2x2_mini_rubik_s_cube_png_image_29650801 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-2x2-mini-rubik-s-cube-png-image_29650801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Samson {
+            get {
+                object obj = ResourceManager.GetObject("Samson", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
