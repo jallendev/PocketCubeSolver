@@ -80,7 +80,7 @@ namespace PocketCubeSolver
             this.buttonSolve.Location = new System.Drawing.Point(205, 389);
             this.buttonSolve.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSolve.Name = "buttonSolve";
-            this.buttonSolve.Size = new System.Drawing.Size(95, 43);
+            this.buttonSolve.Size = new System.Drawing.Size(131, 43);
             this.buttonSolve.TabIndex = 1;
             this.buttonSolve.Text = "Solve!";
             this.buttonSolve.UseVisualStyleBackColor = true;
@@ -385,7 +385,7 @@ namespace PocketCubeSolver
             this.homeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homeButton.Location = new System.Drawing.Point(379, 389);
             this.homeButton.Name = "homeButton";
-            this.homeButton.Size = new System.Drawing.Size(95, 43);
+            this.homeButton.Size = new System.Drawing.Size(126, 43);
             this.homeButton.TabIndex = 19;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = true;
