@@ -214,6 +214,11 @@
     <None Include="Resources\Gwen.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\helpFrench.png" />
+    <None Include="Resources\languageFrench.png" />
+    <None Include="Resources\mainmenuFrench.png" />
+    <None Include="Resources\aboutUsFrench.png" />
+    <None Include="Resources\commencerbutton.png" />
     <None Include="Resources\exitButtonFrench.png" />
     <Content Include="Resources\frenchStartButton.png" />
   </ItemGroup>

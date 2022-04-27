@@ -8,16 +8,31 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace PocketCubeSolver
 {
     public partial class OptionsMenu : Form
     {
         public static OptionsMenu optionsInstance;
+
+        public Label optionLabel;
+
+        public PictureBox helpButton;
+        public PictureBox aboutButton;
+        public PictureBox languageButton;
+        public PictureBox mainMenuButtonInstance;
         
         public OptionsMenu()
         {
             InitializeComponent();
             optionsInstance = this;
+
+            optionLabel = label1;
+
+            helpButton = HelpButton;
+            aboutButton = aboutUsButton;
+            languageButton = languagesButton;
+            mainMenuButtonInstance = mainMenuButton;
         }
 
         private void startButton_Click(object sender, EventArgs e)

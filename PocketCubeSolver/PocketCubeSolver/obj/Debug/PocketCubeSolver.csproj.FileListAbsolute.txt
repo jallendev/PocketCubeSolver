@@ -30,3 +30,4 @@ C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\o
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.AboutMenu.resources
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.HelpMenu.resources
 C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.LanguagesMenu.resources
+C:\Users\kalfa\Source\Repos\PocketCubeSolver\PocketCubeSolver\PocketCubeSolver\obj\Debug\PocketCubeSolver.csproj.AssemblyReference.cache

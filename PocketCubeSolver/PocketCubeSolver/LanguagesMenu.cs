@@ -56,7 +56,13 @@ namespace PocketCubeSolver
                 MainMenu.mainInstance.startButtonInstance.Image = Properties.Resources.Start;
                 MainMenu.mainInstance.optionButtonInstance.Image = Properties.Resources.Option;
                 MainMenu.mainInstance.exitButtonInstance.Image = Properties.Resources.Exit;
-             
+
+                OptionsMenu.optionsInstance.optionLabel.Text = "Options";
+                OptionsMenu.optionsInstance.helpButton.Image = Properties.Resources.Help;
+                OptionsMenu.optionsInstance.aboutButton.Image = Properties.Resources.AboutUs;
+                OptionsMenu.optionsInstance.languageButton.Image = Properties.Resources.Languages;
+                OptionsMenu.optionsInstance.mainMenuButtonInstance.Image = Properties.Resources.MainMenuButton;
+
 
             }
             else if (language.Equals("French"))
@@ -70,9 +76,15 @@ namespace PocketCubeSolver
                 MainMenu.mainInstance.mainLabel.Text = "Solveur de Rubik's";
                 MainMenu.mainInstance.mainLabel2.Text = "Cube";
 
-                MainMenu.mainInstance.startButtonInstance.Image = Properties.Resources.frenchStartButton;
+                MainMenu.mainInstance.startButtonInstance.Image = Properties.Resources.commencerbutton;
                 MainMenu.mainInstance.optionButtonInstance.Image = Properties.Resources.Option;
                 MainMenu.mainInstance.exitButtonInstance.Image = Properties.Resources.exitButtonFrench;
+
+                OptionsMenu.optionsInstance.optionLabel.Text = "Options";
+                OptionsMenu.optionsInstance.helpButton.Image = Properties.Resources.helpFrench;
+                OptionsMenu.optionsInstance.aboutButton.Image = Properties.Resources.aboutUsFrench;
+                OptionsMenu.optionsInstance.languageButton.Image = Properties.Resources.languageFrench;
+                OptionsMenu.optionsInstance.mainMenuButtonInstance.Image = Properties.Resources.mainmenuFrench;
                 //MainMenu.mainInstance.Show();
             }
             else if (language.Equals("Spanish"))

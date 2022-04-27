@@ -316,10 +316,25 @@
   <data name="Gwen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gwen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="aboutUsFrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aboutUsFrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commencerbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commencerbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="exitButtonFrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exitButtonFrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frenchStartButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frenchStartButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helpFrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpFrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="languageFrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\languageFrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainmenuFrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mainmenuFrench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
