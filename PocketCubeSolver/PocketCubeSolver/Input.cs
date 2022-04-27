@@ -201,5 +201,20 @@ namespace PocketCubeSolver
             this.Hide();
             MainMenu.mainInstance.Activate();
         }
+
+        private void instructions_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelRight_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelLeft_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

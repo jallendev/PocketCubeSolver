@@ -15,7 +15,7 @@ namespace PocketCubeSolver
         
 
         public Label mainLabel;
-        public Label mainLabel2;
+      
 
         public PictureBox startButtonInstance;
         public PictureBox optionButtonInstance;
@@ -26,7 +26,6 @@ namespace PocketCubeSolver
             InitializeComponent();
             mainInstance = this;
             mainLabel = menuLabel;
-            mainLabel2 = label1;
 
             startButtonInstance = startButton;
             optionButtonInstance = optionButton;
@@ -58,6 +57,26 @@ namespace PocketCubeSolver
             Input.inputInstance.Show();
             this.Hide();
             Input.inputInstance.Activate();
+        }
+
+        private void versionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

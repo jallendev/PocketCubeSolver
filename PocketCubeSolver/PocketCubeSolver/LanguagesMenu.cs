@@ -50,8 +50,8 @@ namespace PocketCubeSolver
                 homeButton.Text = "Home";
                 BackButton.Text = "Back";
 
-                MainMenu.mainInstance.mainLabel.Text = "2x2 Rubik's Cube";
-                MainMenu.mainInstance.mainLabel2.Text = "Solver";
+                MainMenu.mainInstance.mainLabel.Text = "2x2x2 Rubik's Cube Solver";
+                //MainMenu.mainInstance.mainLabel2.Text = "Solver";
 
                 MainMenu.mainInstance.startButtonInstance.Image = Properties.Resources.Start;
                 MainMenu.mainInstance.optionButtonInstance.Image = Properties.Resources.Option;
@@ -72,6 +72,7 @@ namespace PocketCubeSolver
                 HelpMenu.helpInstance.helpLabel.Text = "Help!";
                 HelpMenu.helpInstance.backButton.Text = "Back";
                 HelpMenu.helpInstance.homeButtonInstance.Text = "Home";
+                HelpMenu.helpInstance.helpText.Text = "To operate our project, a user simply needs to run the build (instructions to build the project can be found in the readme-build.txt file), and the main menu will appear. From there, the main menu will be created with English as the default language.  The user can click “Play” to start the permutation solver, and click on the 2D 2x2x2 Rubik’s Cube layout to choose the permutation they want to solve. Once the user is satisfied with the permutation to be solved, the user will click the “Solve!” button to display step by step instructions on how to solve that specific permutation. If the permutation is invalid, the user will be prompted to try to enter another permutation. The user can use these instructions to take their physical Rubik’s Cube and solve it! If the user decides to click on the options menu, found in the main menu, they will be able to click on the “About” button to see more about our team, and our main goal. The user can also click the “Help” button to get instructions on how to operate the application. This will include videos on how to solve a Rubik’s cube, general instructions that help the user navigate the application, and an FAQ section. The user can also click on the “language” menu to immediately change the application’s main language, a feature provided to help it become more accessible to non-english speakers. Finally, if the user chooses, they can click on the “Exit” button at any point of the application to close out of the application.";
 
                 Input.inputInstance.description.Text = "Click on a square below to change its' color";
                 Input.inputInstance.top.Text = "Top Side";
@@ -95,8 +96,11 @@ namespace PocketCubeSolver
                 homeButton.Text = "Accueil";
                 BackButton.Text = "Retour";
 
-                MainMenu.mainInstance.mainLabel.Text = "Solveur de Rubik's";
-                MainMenu.mainInstance.mainLabel2.Text = "Cube";
+                MainMenu.mainInstance.mainLabel.Text = "2x2x2 Solveur de Rubik's Cube";
+                MainMenu.mainInstance.mainLabel.MaximumSize = new Size(500, 560);
+                MainMenu.mainInstance.mainLabel.AutoSize = true;
+                
+                //MainMenu.mainInstance.mainLabel2.Text = "Cube";
 
                 MainMenu.mainInstance.startButtonInstance.Image = Properties.Resources.commencerbutton;
                 MainMenu.mainInstance.optionButtonInstance.Image = Properties.Resources.Option;
@@ -121,12 +125,15 @@ namespace PocketCubeSolver
                 HelpMenu.helpInstance.helpLabel.Text = "Aide!";
                 HelpMenu.helpInstance.backButton.Text = "Retour";
                 HelpMenu.helpInstance.homeButtonInstance.Text = "Accueil";
+                HelpMenu.helpInstance.helpText.Text = "Pour faire fonctionner notre projet, un utilisateur doit simplement exécuter le programme (les instructions pour programmer le projet peuvent être trouvées dans le fichier readme-build.txt), et le menu principal apparaîtra. À partir de là, le menu principal sera affiché en anglais comme langue par défaut. L'utilisateur peut cliquer sur \"Commencer\" pour démarrer le solutionneur de permutation, puis cliquer sur la représentation plane du Rubik's Cube de dimension 2x2x2 pour choisir la permutation qu'il souhaite résoudre. Une fois que l'utilisateur est satisfait de la permutation à résoudre, l'utilisateur cliquera sur \"Résoudre!\" pour afficher des instructions étape par étape sur la façon de résoudre cette permutation spécifique. Si la permutation n'est pas valide, l'utilisateur sera invité à essayer d'entrer une autre permutation. L'utilisateur peut utiliser ces instructions pour prendre son Rubik's Cube physique et le résoudre ! Si l'utilisateur décide de cliquer sur le menu des options, qui se trouve dans le menu principal, il pourra cliquer sur le bouton \"À propos\" pour en savoir plus sur notre équipe et notre objectif principal. L'utilisateur peut également cliquer sur le bouton \"Aide\" pour obtenir des instructions sur la façon d'utiliser l'application. Cela comprendra des vidéos sur la façon de résoudre un Rubik's cube, des instructions générales qui aident l'utilisateur à naviguer dans l'application et une section FAQ. L'utilisateur peut également cliquer sur le menu \"Langue\" pour changer immédiatement la langue principale de l'application, une fonctionnalité prévue pour l'aider à devenir plus accessible aux non-anglophones. Enfin, si l'utilisateur le souhaite, il peut cliquer sur le bouton \"Quitter\" à tout moment pour fermer l'application.";
 
                 Input.inputInstance.description.Text = "Cliquez sur un carré pour changer sa couleur";
                 Input.inputInstance.top.Text = "Dessus";
                 Input.inputInstance.back.Text = "Arrière";
                 Input.inputInstance.front.Text = "Avant";
                 Input.inputInstance.left.Text = "Côté Gauche";
+                Input.inputInstance.left.MaximumSize = new Size(89, 50);
+                Input.inputInstance.left.AutoSize = true;
                 Input.inputInstance.right.Text = "Côté droit";
                 Input.inputInstance.bottom.Text = "Dessous";
                 Input.inputInstance.solveButton.Text = "Résoudre";
@@ -153,6 +160,11 @@ namespace PocketCubeSolver
         private void LanguagesMenu_Load(object sender, EventArgs e)
         {
             //languageBox.SelectedIndex = 1;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -66,21 +66,24 @@ namespace PocketCubeSolver
             // 
             // instructions
             // 
+            this.instructions.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.instructions.AutoSize = true;
-            this.instructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.instructions.Location = new System.Drawing.Point(109, 26);
+            this.instructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.instructions.Location = new System.Drawing.Point(117, 9);
             this.instructions.Name = "instructions";
-            this.instructions.Size = new System.Drawing.Size(507, 29);
+            this.instructions.Size = new System.Drawing.Size(552, 29);
             this.instructions.TabIndex = 0;
             this.instructions.Text = "Click on a square below to change its\' color.";
+            this.instructions.Click += new System.EventHandler(this.instructions_Click);
             // 
             // buttonSolve
             // 
-            this.buttonSolve.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonSolve.Location = new System.Drawing.Point(205, 389);
+            this.buttonSolve.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonSolve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSolve.Location = new System.Drawing.Point(12, 484);
             this.buttonSolve.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSolve.Name = "buttonSolve";
-            this.buttonSolve.Size = new System.Drawing.Size(131, 43);
+            this.buttonSolve.Size = new System.Drawing.Size(150, 60);
             this.buttonSolve.TabIndex = 1;
             this.buttonSolve.Text = "Solve!";
             this.buttonSolve.UseVisualStyleBackColor = true;
@@ -88,304 +91,367 @@ namespace PocketCubeSolver
             // 
             // bottomTL
             // 
+            this.bottomTL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bottomTL.BackColor = System.Drawing.Color.White;
-            this.bottomTL.Location = new System.Drawing.Point(307, 85);
+            this.bottomTL.Location = new System.Drawing.Point(336, 57);
             this.bottomTL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bottomTL.Name = "bottomTL";
-            this.bottomTL.Size = new System.Drawing.Size(29, 30);
+            this.bottomTL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bottomTL.Size = new System.Drawing.Size(50, 50);
             this.bottomTL.TabIndex = 2;
             this.bottomTL.Click += new System.EventHandler(this.bottomTL_Click);
             // 
             // bottomBL
             // 
+            this.bottomBL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bottomBL.BackColor = System.Drawing.Color.White;
-            this.bottomBL.Location = new System.Drawing.Point(307, 121);
+            this.bottomBL.Location = new System.Drawing.Point(336, 111);
             this.bottomBL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bottomBL.Name = "bottomBL";
-            this.bottomBL.Size = new System.Drawing.Size(29, 30);
+            this.bottomBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bottomBL.Size = new System.Drawing.Size(50, 50);
             this.bottomBL.TabIndex = 3;
             this.bottomBL.Click += new System.EventHandler(this.bottomBL_Click);
             // 
             // bottomTR
             // 
+            this.bottomTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bottomTR.BackColor = System.Drawing.Color.White;
-            this.bottomTR.Location = new System.Drawing.Point(343, 85);
+            this.bottomTR.Location = new System.Drawing.Point(392, 57);
             this.bottomTR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bottomTR.Name = "bottomTR";
-            this.bottomTR.Size = new System.Drawing.Size(29, 30);
+            this.bottomTR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bottomTR.Size = new System.Drawing.Size(50, 50);
             this.bottomTR.TabIndex = 3;
             this.bottomTR.Click += new System.EventHandler(this.bottomTR_Click);
             // 
             // bottomBR
             // 
+            this.bottomBR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bottomBR.BackColor = System.Drawing.Color.Yellow;
-            this.bottomBR.Location = new System.Drawing.Point(343, 121);
+            this.bottomBR.Location = new System.Drawing.Point(392, 111);
             this.bottomBR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bottomBR.Name = "bottomBR";
-            this.bottomBR.Size = new System.Drawing.Size(29, 30);
+            this.bottomBR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bottomBR.Size = new System.Drawing.Size(50, 50);
             this.bottomBR.TabIndex = 3;
             this.bottomBR.Click += new System.EventHandler(this.bottomBR_Click);
             // 
             // backBL
             // 
+            this.backBL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.backBL.BackColor = System.Drawing.Color.Red;
-            this.backBL.Location = new System.Drawing.Point(307, 193);
+            this.backBL.Location = new System.Drawing.Point(336, 219);
             this.backBL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backBL.Name = "backBL";
-            this.backBL.Size = new System.Drawing.Size(29, 30);
+            this.backBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.backBL.Size = new System.Drawing.Size(50, 50);
             this.backBL.TabIndex = 6;
             this.backBL.Click += new System.EventHandler(this.backBL_Click);
             // 
             // backBR
             // 
+            this.backBR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.backBR.BackColor = System.Drawing.Color.Blue;
-            this.backBR.Location = new System.Drawing.Point(343, 193);
+            this.backBR.Location = new System.Drawing.Point(392, 219);
             this.backBR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backBR.Name = "backBR";
-            this.backBR.Size = new System.Drawing.Size(29, 30);
+            this.backBR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.backBR.Size = new System.Drawing.Size(50, 50);
             this.backBR.TabIndex = 7;
             this.backBR.Click += new System.EventHandler(this.backBR_Click);
             // 
             // backTR
             // 
+            this.backTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.backTR.BackColor = System.Drawing.Color.Blue;
-            this.backTR.Location = new System.Drawing.Point(343, 158);
+            this.backTR.Location = new System.Drawing.Point(392, 165);
             this.backTR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backTR.Name = "backTR";
-            this.backTR.Size = new System.Drawing.Size(29, 30);
+            this.backTR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.backTR.Size = new System.Drawing.Size(50, 50);
             this.backTR.TabIndex = 8;
             this.backTR.Click += new System.EventHandler(this.backTR_Click);
             // 
             // backTL
             // 
+            this.backTL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.backTL.BackColor = System.Drawing.Color.Red;
-            this.backTL.Location = new System.Drawing.Point(307, 158);
+            this.backTL.Location = new System.Drawing.Point(336, 165);
             this.backTL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backTL.Name = "backTL";
-            this.backTL.Size = new System.Drawing.Size(29, 30);
+            this.backTL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.backTL.Size = new System.Drawing.Size(50, 50);
             this.backTL.TabIndex = 5;
             this.backTL.Click += new System.EventHandler(this.backTL_Click);
             // 
             // leftBL
             // 
+            this.leftBL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.leftBL.BackColor = System.Drawing.Color.Blue;
-            this.leftBL.Location = new System.Drawing.Point(235, 193);
+            this.leftBL.Location = new System.Drawing.Point(224, 219);
             this.leftBL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.leftBL.Name = "leftBL";
-            this.leftBL.Size = new System.Drawing.Size(29, 30);
+            this.leftBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.leftBL.Size = new System.Drawing.Size(50, 50);
             this.leftBL.TabIndex = 6;
             this.leftBL.Click += new System.EventHandler(this.leftBL_Click);
             // 
             // leftBR
             // 
+            this.leftBR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.leftBR.BackColor = System.Drawing.Color.Red;
-            this.leftBR.Location = new System.Drawing.Point(271, 193);
+            this.leftBR.Location = new System.Drawing.Point(280, 219);
             this.leftBR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.leftBR.Name = "leftBR";
-            this.leftBR.Size = new System.Drawing.Size(29, 30);
+            this.leftBR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.leftBR.Size = new System.Drawing.Size(50, 50);
             this.leftBR.TabIndex = 7;
             this.leftBR.Click += new System.EventHandler(this.leftBR_Click);
             // 
             // leftTR
             // 
+            this.leftTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.leftTR.BackColor = System.Drawing.Color.Red;
-            this.leftTR.Location = new System.Drawing.Point(271, 158);
+            this.leftTR.Location = new System.Drawing.Point(280, 165);
             this.leftTR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.leftTR.Name = "leftTR";
-            this.leftTR.Size = new System.Drawing.Size(29, 30);
+            this.leftTR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.leftTR.Size = new System.Drawing.Size(50, 50);
             this.leftTR.TabIndex = 8;
             this.leftTR.Click += new System.EventHandler(this.leftTR_Click);
             // 
             // leftTL
             // 
+            this.leftTL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.leftTL.BackColor = System.Drawing.Color.Red;
-            this.leftTL.Location = new System.Drawing.Point(235, 158);
+            this.leftTL.Location = new System.Drawing.Point(224, 165);
             this.leftTL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.leftTL.Name = "leftTL";
-            this.leftTL.Size = new System.Drawing.Size(29, 30);
+            this.leftTL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.leftTL.Size = new System.Drawing.Size(50, 50);
             this.leftTL.TabIndex = 5;
             this.leftTL.Click += new System.EventHandler(this.leftTL_Click);
             // 
             // topBL
             // 
+            this.topBL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.topBL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.topBL.Location = new System.Drawing.Point(307, 265);
+            this.topBL.Location = new System.Drawing.Point(336, 327);
             this.topBL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.topBL.Name = "topBL";
-            this.topBL.Size = new System.Drawing.Size(29, 30);
+            this.topBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.topBL.Size = new System.Drawing.Size(50, 50);
             this.topBL.TabIndex = 10;
             this.topBL.Click += new System.EventHandler(this.topBL_Click);
             // 
             // topBR
             // 
+            this.topBR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.topBR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.topBR.Location = new System.Drawing.Point(343, 265);
+            this.topBR.Location = new System.Drawing.Point(392, 327);
             this.topBR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.topBR.Name = "topBR";
-            this.topBR.Size = new System.Drawing.Size(29, 30);
+            this.topBR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.topBR.Size = new System.Drawing.Size(50, 50);
             this.topBR.TabIndex = 11;
             this.topBR.Click += new System.EventHandler(this.topBR_Click);
             // 
             // topTR
             // 
+            this.topTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.topTR.BackColor = System.Drawing.Color.White;
-            this.topTR.Location = new System.Drawing.Point(343, 229);
+            this.topTR.Location = new System.Drawing.Point(392, 273);
             this.topTR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.topTR.Name = "topTR";
-            this.topTR.Size = new System.Drawing.Size(29, 30);
+            this.topTR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.topTR.Size = new System.Drawing.Size(50, 50);
             this.topTR.TabIndex = 12;
             this.topTR.Click += new System.EventHandler(this.topTR_Click);
             // 
             // topTL
             // 
+            this.topTL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.topTL.BackColor = System.Drawing.Color.Yellow;
-            this.topTL.Location = new System.Drawing.Point(307, 229);
+            this.topTL.Location = new System.Drawing.Point(336, 273);
             this.topTL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.topTL.Name = "topTL";
-            this.topTL.Size = new System.Drawing.Size(29, 30);
+            this.topTL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.topTL.Size = new System.Drawing.Size(50, 50);
             this.topTL.TabIndex = 9;
             this.topTL.Click += new System.EventHandler(this.topTL_Click);
             // 
             // frontBL
             // 
+            this.frontBL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.frontBL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.frontBL.Location = new System.Drawing.Point(307, 337);
+            this.frontBL.Location = new System.Drawing.Point(336, 435);
             this.frontBL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.frontBL.Name = "frontBL";
-            this.frontBL.Size = new System.Drawing.Size(29, 30);
+            this.frontBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.frontBL.Size = new System.Drawing.Size(50, 50);
             this.frontBL.TabIndex = 10;
             this.frontBL.Click += new System.EventHandler(this.frontBL_Click);
             // 
             // frontBR
             // 
+            this.frontBR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.frontBR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.frontBR.Location = new System.Drawing.Point(343, 337);
+            this.frontBR.Location = new System.Drawing.Point(392, 435);
             this.frontBR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.frontBR.Name = "frontBR";
-            this.frontBR.Size = new System.Drawing.Size(29, 30);
+            this.frontBR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.frontBR.Size = new System.Drawing.Size(50, 50);
             this.frontBR.TabIndex = 11;
             this.frontBR.Click += new System.EventHandler(this.frontBR_Click);
             // 
             // frontTR
             // 
+            this.frontTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.frontTR.BackColor = System.Drawing.Color.Yellow;
-            this.frontTR.Location = new System.Drawing.Point(343, 302);
+            this.frontTR.Location = new System.Drawing.Point(392, 381);
             this.frontTR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.frontTR.Name = "frontTR";
-            this.frontTR.Size = new System.Drawing.Size(29, 30);
+            this.frontTR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.frontTR.Size = new System.Drawing.Size(50, 50);
             this.frontTR.TabIndex = 12;
             this.frontTR.Click += new System.EventHandler(this.frontTR_Click);
             // 
             // frontTL
             // 
+            this.frontTL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.frontTL.BackColor = System.Drawing.Color.Yellow;
-            this.frontTL.Location = new System.Drawing.Point(307, 302);
+            this.frontTL.Location = new System.Drawing.Point(336, 381);
             this.frontTL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.frontTL.Name = "frontTL";
-            this.frontTL.Size = new System.Drawing.Size(29, 30);
+            this.frontTL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.frontTL.Size = new System.Drawing.Size(50, 50);
             this.frontTL.TabIndex = 9;
             this.frontTL.Click += new System.EventHandler(this.frontTL_Click);
             // 
             // rightBL
             // 
+            this.rightBL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rightBL.BackColor = System.Drawing.Color.Lime;
-            this.rightBL.Location = new System.Drawing.Point(379, 265);
+            this.rightBL.Location = new System.Drawing.Point(448, 327);
             this.rightBL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rightBL.Name = "rightBL";
-            this.rightBL.Size = new System.Drawing.Size(29, 30);
+            this.rightBL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.rightBL.Size = new System.Drawing.Size(50, 50);
             this.rightBL.TabIndex = 10;
             this.rightBL.Click += new System.EventHandler(this.rightBL_Click);
             // 
             // rightBR
             // 
+            this.rightBR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rightBR.BackColor = System.Drawing.Color.Blue;
-            this.rightBR.Location = new System.Drawing.Point(415, 265);
+            this.rightBR.Location = new System.Drawing.Point(501, 327);
             this.rightBR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rightBR.Name = "rightBR";
-            this.rightBR.Size = new System.Drawing.Size(29, 30);
+            this.rightBR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.rightBR.Size = new System.Drawing.Size(50, 50);
             this.rightBR.TabIndex = 11;
             this.rightBR.Click += new System.EventHandler(this.rightBR_Click);
             // 
             // rightTR
             // 
+            this.rightTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rightTR.BackColor = System.Drawing.Color.Red;
-            this.rightTR.Location = new System.Drawing.Point(415, 229);
+            this.rightTR.Location = new System.Drawing.Point(501, 273);
             this.rightTR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rightTR.Name = "rightTR";
-            this.rightTR.Size = new System.Drawing.Size(29, 30);
+            this.rightTR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.rightTR.Size = new System.Drawing.Size(50, 50);
             this.rightTR.TabIndex = 12;
             this.rightTR.Click += new System.EventHandler(this.rightTR_Click);
             // 
             // rightTL
             // 
+            this.rightTL.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rightTL.BackColor = System.Drawing.Color.Red;
-            this.rightTL.Location = new System.Drawing.Point(379, 229);
+            this.rightTL.Location = new System.Drawing.Point(448, 273);
             this.rightTL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rightTL.Name = "rightTL";
-            this.rightTL.Size = new System.Drawing.Size(29, 30);
+            this.rightTL.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.rightTL.Size = new System.Drawing.Size(50, 50);
             this.rightTL.TabIndex = 9;
             this.rightTL.Click += new System.EventHandler(this.rightTL_Click);
             // 
             // labelBottom
             // 
+            this.labelBottom.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelBottom.AutoSize = true;
-            this.labelBottom.Location = new System.Drawing.Point(379, 98);
+            this.labelBottom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBottom.Location = new System.Drawing.Point(443, 97);
             this.labelBottom.Name = "labelBottom";
-            this.labelBottom.Size = new System.Drawing.Size(84, 17);
+            this.labelBottom.Size = new System.Drawing.Size(118, 25);
             this.labelBottom.TabIndex = 13;
             this.labelBottom.Text = "Bottom Side";
             // 
             // labelLeft
             // 
+            this.labelLeft.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelLeft.AutoSize = true;
-            this.labelLeft.Location = new System.Drawing.Point(211, 134);
+            this.labelLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLeft.Location = new System.Drawing.Point(105, 208);
             this.labelLeft.Name = "labelLeft";
-            this.labelLeft.Size = new System.Drawing.Size(64, 17);
+            this.labelLeft.Size = new System.Drawing.Size(89, 25);
             this.labelLeft.TabIndex = 14;
             this.labelLeft.Text = "Left Side";
+            this.labelLeft.Click += new System.EventHandler(this.labelLeft_Click);
             // 
             // labelBack
             // 
+            this.labelBack.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelBack.AutoSize = true;
-            this.labelBack.Location = new System.Drawing.Point(379, 170);
+            this.labelBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelBack.Location = new System.Drawing.Point(448, 208);
             this.labelBack.Name = "labelBack";
-            this.labelBack.Size = new System.Drawing.Size(71, 17);
+            this.labelBack.Size = new System.Drawing.Size(101, 25);
             this.labelBack.TabIndex = 15;
             this.labelBack.Text = "Back Side";
             // 
             // labelTop
             // 
+            this.labelTop.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelTop.AutoSize = true;
-            this.labelTop.Location = new System.Drawing.Point(236, 265);
+            this.labelTop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTop.Location = new System.Drawing.Point(229, 313);
             this.labelTop.Name = "labelTop";
-            this.labelTop.Size = new System.Drawing.Size(65, 17);
+            this.labelTop.Size = new System.Drawing.Size(92, 25);
             this.labelTop.TabIndex = 16;
             this.labelTop.Text = "Top Side";
             // 
             // labelRight
             // 
+            this.labelRight.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelRight.AutoSize = true;
-            this.labelRight.Location = new System.Drawing.Point(451, 265);
+            this.labelRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRight.Location = new System.Drawing.Point(557, 313);
             this.labelRight.Name = "labelRight";
-            this.labelRight.Size = new System.Drawing.Size(73, 17);
+            this.labelRight.Size = new System.Drawing.Size(101, 25);
             this.labelRight.TabIndex = 17;
             this.labelRight.Text = "Right Side";
+            this.labelRight.Click += new System.EventHandler(this.labelRight_Click);
             // 
             // labelFront
             // 
+            this.labelFront.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelFront.AutoSize = true;
-            this.labelFront.Location = new System.Drawing.Point(228, 337);
+            this.labelFront.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFront.Location = new System.Drawing.Point(219, 425);
             this.labelFront.Name = "labelFront";
-            this.labelFront.Size = new System.Drawing.Size(73, 17);
+            this.labelFront.Size = new System.Drawing.Size(102, 25);
             this.labelFront.TabIndex = 18;
             this.labelFront.Text = "Front Side";
             // 
             // homeButton
             // 
-            this.homeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homeButton.Location = new System.Drawing.Point(379, 389);
+            this.homeButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.homeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homeButton.Location = new System.Drawing.Point(570, 484);
             this.homeButton.Name = "homeButton";
-            this.homeButton.Size = new System.Drawing.Size(126, 43);
+            this.homeButton.Size = new System.Drawing.Size(150, 60);
             this.homeButton.TabIndex = 19;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = true;
@@ -395,13 +461,19 @@ namespace PocketCubeSolver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 500);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(732, 555);
+            this.Controls.Add(this.labelLeft);
+            this.Controls.Add(this.labelRight);
+            this.Controls.Add(this.topTL);
+            this.Controls.Add(this.topBR);
+            this.Controls.Add(this.bottomBR);
+            this.Controls.Add(this.leftBR);
+            this.Controls.Add(this.leftBL);
             this.Controls.Add(this.homeButton);
             this.Controls.Add(this.labelFront);
-            this.Controls.Add(this.labelRight);
             this.Controls.Add(this.labelTop);
             this.Controls.Add(this.labelBack);
-            this.Controls.Add(this.labelLeft);
             this.Controls.Add(this.labelBottom);
             this.Controls.Add(this.rightBL);
             this.Controls.Add(this.frontBL);
@@ -410,19 +482,14 @@ namespace PocketCubeSolver
             this.Controls.Add(this.rightTR);
             this.Controls.Add(this.frontBR);
             this.Controls.Add(this.rightTL);
-            this.Controls.Add(this.leftBL);
             this.Controls.Add(this.frontTR);
-            this.Controls.Add(this.topBR);
             this.Controls.Add(this.frontTL);
             this.Controls.Add(this.backBL);
             this.Controls.Add(this.topTR);
-            this.Controls.Add(this.leftBR);
-            this.Controls.Add(this.topTL);
             this.Controls.Add(this.bottomBL);
             this.Controls.Add(this.leftTR);
             this.Controls.Add(this.leftTL);
             this.Controls.Add(this.backBR);
-            this.Controls.Add(this.bottomBR);
             this.Controls.Add(this.backTR);
             this.Controls.Add(this.bottomTR);
             this.Controls.Add(this.backTL);

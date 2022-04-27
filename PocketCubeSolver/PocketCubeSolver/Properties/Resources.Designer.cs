@@ -123,6 +123,26 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background {
+            get {
+                object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background2 {
+            get {
+                object obj = ResourceManager.GetObject("background2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BlankCube {
             get {
                 object obj = ResourceManager.GetObject("BlankCube", resourceCulture);
@@ -523,9 +543,29 @@ namespace PocketCubeSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap languageMenuBackground {
+            get {
+                object obj = ResourceManager.GetObject("languageMenuBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Languages {
             get {
                 object obj = ResourceManager.GetObject("Languages", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mainMenuBackground {
+            get {
+                object obj = ResourceManager.GetObject("mainMenuBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -646,6 +686,16 @@ namespace PocketCubeSolver.Properties {
         internal static System.Drawing.Bitmap pngtree_2x2_mini_rubik_s_cube_png_image_29650801 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-2x2-mini-rubik-s-cube-png-image_29650801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RubiksLogo {
+            get {
+                object obj = ResourceManager.GetObject("RubiksLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

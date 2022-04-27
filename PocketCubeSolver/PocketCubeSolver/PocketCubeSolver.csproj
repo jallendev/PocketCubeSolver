@@ -214,6 +214,11 @@
     <None Include="Resources\Gwen.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\background2.jpg" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\RubiksLogo.PNG" />
+    <None Include="Resources\languageMenuBackground.png" />
+    <None Include="Resources\mainMenuBackground.jpg" />
     <None Include="Resources\Samson.jpg" />
     <None Include="Resources\Jay.PNG" />
     <None Include="Resources\Jay.jpg" />
