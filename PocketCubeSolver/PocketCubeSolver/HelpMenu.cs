@@ -15,6 +15,12 @@ namespace PocketCubeSolver
         public static HelpMenu helpInstance;
 
         public Label helpLabel;
+        public Label instructionsLabelInstance;
+        public Label instructionalVideosLabel;
+        public TextBox faqTextBox;
+        public LinkLabel labelVideo1;
+        public LinkLabel labelVideo2;
+        public LinkLabel labelVideo3;
         public TextBox helpText;
         public Button backButton;
         public Button homeButtonInstance;
@@ -27,6 +33,12 @@ namespace PocketCubeSolver
             backButton = BackButton;
             homeButtonInstance = homeButton;
             helpText = instructionsText;
+            faqTextBox = textBox1;
+            instructionsLabelInstance = instructionsLabel;
+            instructionalVideosLabel = label3;
+            labelVideo1 = video1Link;
+            labelVideo2 = video2Link;
+            labelVideo3 = video3Link;
         }
 
         private void homeButton_Click(object sender, EventArgs e)
