@@ -15,12 +15,14 @@ namespace PocketCubeSolver
         
 
         public Label mainLabel;
+        public Label mainLabel2;
       
         public MainMenu()
         {
             InitializeComponent();
             mainInstance = this;
             mainLabel = menuLabel;
+            mainLabel2 = label1;
 
 
         }

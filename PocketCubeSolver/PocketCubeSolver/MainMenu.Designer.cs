@@ -87,7 +87,7 @@ namespace PocketCubeSolver
             // 
             this.menuLabel.AutoSize = true;
             this.menuLabel.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuLabel.Location = new System.Drawing.Point(19, 0);
+            this.menuLabel.Location = new System.Drawing.Point(3, 1);
             this.menuLabel.Name = "menuLabel";
             this.menuLabel.Size = new System.Drawing.Size(372, 60);
             this.menuLabel.TabIndex = 3;

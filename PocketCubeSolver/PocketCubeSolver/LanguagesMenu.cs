@@ -50,6 +50,9 @@ namespace PocketCubeSolver
                 homeButton.Text = "Home";
                 BackButton.Text = "Back";
 
+                MainMenu.mainInstance.mainLabel.Text = "2x2 Rubik's Cube";
+                MainMenu.mainInstance.mainLabel2.Text = "Solver";
+
 
             }
             else if (language.Equals("French"))
@@ -60,7 +63,8 @@ namespace PocketCubeSolver
                 homeButton.Text = "Accueil";
                 BackButton.Text = "Retour";
 
-                MainMenu.mainInstance.mainLabel.Text = "FRENCH";
+                MainMenu.mainInstance.mainLabel.Text = "Solveur de Rubik's";
+                MainMenu.mainInstance.mainLabel2.Text = "Cube";
                 //MainMenu.mainInstance.Show();
             }
             else if (language.Equals("Spanish"))
