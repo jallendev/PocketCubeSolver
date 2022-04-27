@@ -338,7 +338,7 @@ namespace PocketCubeSolver
             // labelLeft
             // 
             this.labelLeft.AutoSize = true;
-            this.labelLeft.Location = new System.Drawing.Point(165, 170);
+            this.labelLeft.Location = new System.Drawing.Point(211, 134);
             this.labelLeft.Name = "labelLeft";
             this.labelLeft.Size = new System.Drawing.Size(64, 17);
             this.labelLeft.TabIndex = 14;

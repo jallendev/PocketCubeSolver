@@ -13,10 +13,18 @@ namespace PocketCubeSolver
     public partial class HelpMenu : Form
     {
         public static HelpMenu helpInstance;
+
+        public Label helpLabel;
+        public Button backButton;
+        public Button homeButtonInstance;
         public HelpMenu()
         {
             InitializeComponent();
             helpInstance = this;
+
+            helpLabel = label1;
+            backButton = BackButton;
+            homeButtonInstance = homeButton;
         }
 
         private void homeButton_Click(object sender, EventArgs e)

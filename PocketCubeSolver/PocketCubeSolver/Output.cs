@@ -13,10 +13,14 @@ namespace PocketCubeSolver
     public partial class Output : Form
     {
         public static Output outputInstance;
+
+        public Button backButton;
         public Output()
         {
             InitializeComponent();
             outputInstance = this;
+
+            backButton = buttonBack;
         }
 
         //Opens the input form

@@ -13,12 +13,34 @@ namespace PocketCubeSolver
     public partial class Input : Form
     {
         public static Input inputInstance;
+
+        public Label description;
+        public Label bottom;
+        public Label left;
+        public Label right;
+        public Label top;
+        public Label front;
+        public Label back;
+
+        public Button solveButton;
+        public Button homeButtonInstance;
         // Colors of the rubix cube
         Color[] colors = new Color[] { Color.White, Color.Blue, Color.Red, Color.Lime, Color.FromArgb(255, 128, 0), Color.Yellow };
         public Input()
         {
             InitializeComponent();
             inputInstance = this;
+
+            description = instructions;
+            bottom = labelBottom;
+            left = labelLeft;
+            right = labelRight;
+            top = labelTop;
+            front = labelFront;
+            back = labelBack;
+
+            solveButton = buttonSolve;
+            homeButtonInstance = homeButton;
         }
 
         // Picks the next color, from the array colors, of cube when clicked on by user

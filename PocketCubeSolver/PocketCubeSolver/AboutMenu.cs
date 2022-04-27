@@ -13,10 +13,19 @@ namespace PocketCubeSolver
     public partial class AboutMenu : Form
     {
         public static AboutMenu aboutInstance;
+
+        public Label aboutLabel;
+        public Button backButton;
+        public Button homeButtonInstance;
+
         public AboutMenu()
         {
             InitializeComponent();
             aboutInstance = this;
+
+            aboutLabel = label1;
+            backButton = BackButton;
+            homeButtonInstance = homeButton;
         }
 
         private void aboutText_TextChanged(object sender, EventArgs e)

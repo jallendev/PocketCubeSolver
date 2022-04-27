@@ -63,6 +63,26 @@ namespace PocketCubeSolver
                 OptionsMenu.optionsInstance.languageButton.Image = Properties.Resources.Languages;
                 OptionsMenu.optionsInstance.mainMenuButtonInstance.Image = Properties.Resources.MainMenuButton;
 
+                AboutMenu.aboutInstance.aboutLabel.Text = "About Us";
+                AboutMenu.aboutInstance.homeButtonInstance.Text = "Home";
+                AboutMenu.aboutInstance.backButton.Text = "Back";
+
+                HelpMenu.helpInstance.helpLabel.Text = "Help!";
+                HelpMenu.helpInstance.backButton.Text = "Back";
+                HelpMenu.helpInstance.homeButtonInstance.Text = "Home";
+
+                Input.inputInstance.description.Text = "Click on a square below to change its' color";
+                Input.inputInstance.top.Text = "Top Side";
+                Input.inputInstance.back.Text = "Back Side";
+                Input.inputInstance.front.Text = "Front Side";
+                Input.inputInstance.left.Text = "Left Side";
+                Input.inputInstance.right.Text = "Right Side";
+                Input.inputInstance.bottom.Text = "Bottom Side";
+                Input.inputInstance.solveButton.Text = "Solve!";
+                Input.inputInstance.homeButtonInstance.Text = "Home";
+
+                Output.outputInstance.backButton.Text = "Back";
+
 
             }
             else if (language.Equals("French"))
@@ -85,6 +105,27 @@ namespace PocketCubeSolver
                 OptionsMenu.optionsInstance.aboutButton.Image = Properties.Resources.aboutUsFrench;
                 OptionsMenu.optionsInstance.languageButton.Image = Properties.Resources.languageFrench;
                 OptionsMenu.optionsInstance.mainMenuButtonInstance.Image = Properties.Resources.mainmenuFrench;
+
+                AboutMenu.aboutInstance.aboutLabel.Text = "À propos";
+                AboutMenu.aboutInstance.homeButtonInstance.Text = "Accueil";
+                AboutMenu.aboutInstance.backButton.Text = "Retour";
+
+                HelpMenu.helpInstance.helpLabel.Text = "Aide!";
+                HelpMenu.helpInstance.backButton.Text = "Retour";
+                HelpMenu.helpInstance.homeButtonInstance.Text = "Accueil";
+
+                Input.inputInstance.description.Text = "Cliquez sur un carré pour changer sa couleur";
+                Input.inputInstance.top.Text = "Dessus";
+                Input.inputInstance.back.Text = "Arrière";
+                Input.inputInstance.front.Text = "Avant";
+                Input.inputInstance.left.Text = "Côté Gauche";
+                Input.inputInstance.right.Text = "Côté droit";
+                Input.inputInstance.bottom.Text = "Dessous";
+                Input.inputInstance.solveButton.Text = "Résoudre";
+                Input.inputInstance.homeButtonInstance.Text = "Accueil";
+
+                Output.outputInstance.backButton.Text = "Retour";
+
                 //MainMenu.mainInstance.Show();
             }
             else if (language.Equals("Spanish"))
