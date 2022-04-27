@@ -31,28 +31,28 @@ namespace PocketCubeSolver
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.menuPanel = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.versionLabel = new System.Windows.Forms.Label();
-            this.menuLabel = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.exitButton = new System.Windows.Forms.PictureBox();
             this.optionButton = new System.Windows.Forms.PictureBox();
             this.startButton = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.versionLabel = new System.Windows.Forms.Label();
+            this.menuLabel = new System.Windows.Forms.Label();
             this.menuPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.startButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // menuPanel
             // 
             this.menuPanel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.menuPanel.AutoSize = true;
-            this.menuPanel.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuPanel.BackColor = System.Drawing.Color.Gray;
             this.menuPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.menuPanel.Controls.Add(this.pictureBox2);
             this.menuPanel.Controls.Add(this.exitButton);
@@ -68,40 +68,15 @@ namespace PocketCubeSolver
             this.menuPanel.Size = new System.Drawing.Size(708, 416);
             this.menuPanel.TabIndex = 1;
             // 
-            // pictureBox3
+            // pictureBox2
             // 
-            this.pictureBox3.Image = global::PocketCubeSolver.Properties.Resources.RubiksLogo;
-            this.pictureBox3.Location = new System.Drawing.Point(638, 331);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // versionLabel
-            // 
-            this.versionLabel.AutoSize = true;
-            this.versionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.versionLabel.Location = new System.Drawing.Point(625, 384);
-            this.versionLabel.Name = "versionLabel";
-            this.versionLabel.Size = new System.Drawing.Size(74, 25);
-            this.versionLabel.TabIndex = 8;
-            this.versionLabel.Text = "V.1.0.0";
-            this.versionLabel.Click += new System.EventHandler(this.versionLabel_Click);
-            // 
-            // menuLabel
-            // 
-            this.menuLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.menuLabel.AutoSize = true;
-            this.menuLabel.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuLabel.ForeColor = System.Drawing.Color.Black;
-            this.menuLabel.Location = new System.Drawing.Point(61, 15);
-            this.menuLabel.Name = "menuLabel";
-            this.menuLabel.Size = new System.Drawing.Size(560, 60);
-            this.menuLabel.TabIndex = 3;
-            this.menuLabel.Text = "2x2x2 Rubik\'s Cube Solver";
-            this.menuLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBox2.Image = global::PocketCubeSolver.Properties.Resources.BlankCube;
+            this.pictureBox2.Location = new System.Drawing.Point(479, 87);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(210, 190);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
             // 
             // exitButton
             // 
@@ -153,15 +128,40 @@ namespace PocketCubeSolver
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
+            // pictureBox3
             // 
-            this.pictureBox2.Image = global::PocketCubeSolver.Properties.Resources.BlankCube;
-            this.pictureBox2.Location = new System.Drawing.Point(479, 87);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(210, 190);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 11;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox3.Image = global::PocketCubeSolver.Properties.Resources.RubiksLogo;
+            this.pictureBox3.Location = new System.Drawing.Point(638, 331);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(51, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // versionLabel
+            // 
+            this.versionLabel.AutoSize = true;
+            this.versionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.versionLabel.Location = new System.Drawing.Point(625, 384);
+            this.versionLabel.Name = "versionLabel";
+            this.versionLabel.Size = new System.Drawing.Size(74, 25);
+            this.versionLabel.TabIndex = 8;
+            this.versionLabel.Text = "V.1.0.0";
+            this.versionLabel.Click += new System.EventHandler(this.versionLabel_Click);
+            // 
+            // menuLabel
+            // 
+            this.menuLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.menuLabel.AutoSize = true;
+            this.menuLabel.Font = new System.Drawing.Font("Impact", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuLabel.ForeColor = System.Drawing.Color.Black;
+            this.menuLabel.Location = new System.Drawing.Point(61, 15);
+            this.menuLabel.Name = "menuLabel";
+            this.menuLabel.Size = new System.Drawing.Size(560, 60);
+            this.menuLabel.TabIndex = 3;
+            this.menuLabel.Text = "2x2x2 Rubik\'s Cube Solver";
+            this.menuLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainMenu
             // 
@@ -178,12 +178,12 @@ namespace PocketCubeSolver
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.optionButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.startButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

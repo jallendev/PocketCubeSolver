@@ -120,4 +120,16 @@
   <data name="instructionsText.Text" xml:space="preserve">
     <value>To operate our project, a user simply needs to run the build (instructions to build the project can be found in the readme-build.txt file), and the main menu will appear. From there, the main menu will be created with English as the default language.  The user can click “Play” to start the permutation solver, and click on the 2D 2x2x2 Rubik’s Cube layout to choose the permutation they want to solve. Once the user is satisfied with the permutation to be solved, the user will click the “Solve!” button to display step by step instructions on how to solve that specific permutation. If the permutation is invalid, the user will be prompted to try to enter another permutation. The user can use these instructions to take their physical Rubik’s Cube and solve it! If the user decides to click on the options menu, found in the main menu, they will be able to click on the “About” button to see more about our team, and our main goal. The user can also click the “Help” button to get instructions on how to operate the application. This will include videos on how to solve a Rubik’s cube, general instructions that help the user navigate the application, and an FAQ section. The user can also click on the “language” menu to immediately change the application’s main language, a feature provided to help it become more accessible to non-english speakers. Finally, if the user chooses, they can click on the “Exit” button at any point of the application to close out of the application. </value>
   </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Question: How do you select your permutation?
+Answer: You will do so by clicking on the squares in the input menu. The colors will cycle through Blue, Red, Green, Orange, Yellow, and White. There are labels that show how the orientation of the cube should be. Simply, click on the squares until it matches your cube.
+
+Question: What are the technical terms for solving the cube?
+Answer: F - Front, D - Back, R - Right, L - Left
+A letter alone means a clockwise rotation while reverse turns are marked with an apostrophe (F') and double turns are marked with 2 (F2).
+An example algorithm: F R' U2 (turn the front face clockwise, then the right counterclockwise and do a 180° turn of the up face)
+
+Question: Should I buy my own cube so I can play along?
+Answer: All users are encouraged to buy their own 2x2x2 Rubik’s Cube so that they can physically practice solving the permutations.</value>
+  </data>
 </root>

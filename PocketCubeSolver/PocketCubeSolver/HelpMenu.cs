@@ -42,5 +42,42 @@ namespace PocketCubeSolver
             this.Hide();
             OptionsMenu.optionsInstance.Activate();
         }
+
+        private void HelpMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void video1Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Specify that the link was visited.
+            this.video1Link.LinkVisited = true;
+
+            // Navigate to a URL.
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=bCn8TajrPqc");
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void video2Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Specify that the link was visited.
+            this.video1Link.LinkVisited = true;
+
+            // Navigate to a URL.
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=1Z8-p6szLUY");
+        }
+
+        private void video3Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Specify that the link was visited.
+            this.video1Link.LinkVisited = true;
+
+            // Navigate to a URL.
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=7pHnmNeoJkQ");
+        }
     }
 }
