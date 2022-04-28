@@ -21,8 +21,8 @@ namespace PocketCubeSolver.SolverClasses
 			LinkedList<CubeState> fqueue = new LinkedList<CubeState>();
 			LinkedList<CubeState> bqueue = new LinkedList<CubeState>();
 			CubeState src = state, end = new CubeState();
-			forwardParents[end] = null;
-			backwardParents[src] = null;
+			forwardParents[end] = "";
+			backwardParents[src] = "";
 			fqueue.AddLast(end);
 			fqueue.AddLast(new CubeState(true));
 			bqueue.AddLast(src);

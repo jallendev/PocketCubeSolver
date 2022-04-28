@@ -25,7 +25,7 @@ namespace PocketCubeSolver
             outputInstance = this;
 
             backButton = buttonInput;
-            setSolution(testSol); //TO-DO: change this to however Joseph is inputting the solution
+            setSolution(solution); //TO-DO: change this to however Joseph is inputting the solution
             next4Steps();
             buttonPrev.Enabled = false;
         }
