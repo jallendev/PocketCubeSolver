@@ -93,6 +93,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolverClasses\CubeState.cs" />
+    <Compile Include="SolverClasses\Solver.cs" />
     <EmbeddedResource Include="AboutMenu.resx">
       <DependentUpon>AboutMenu.cs</DependentUpon>
     </EmbeddedResource>

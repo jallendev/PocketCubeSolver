@@ -26,6 +26,7 @@ namespace PocketCubeSolver
         public Button homeButtonInstance;
         // Colors of the rubix cube
         Color[] colors = new Color[] { Color.White, Color.Blue, Color.Red, Color.Lime, Color.FromArgb(255, 128, 0), Color.Yellow };
+
         public Input()
         {
             InitializeComponent();
@@ -63,11 +64,6 @@ namespace PocketCubeSolver
         // Sends the user to the output form by clicking the "Solve" button
         private void buttonSolve_Click(object sender, EventArgs e)
         {
-            //Form output = new Output();
-            //output.Show();
-            //this.Hide();
-            //output.Activate();
-
             Output.outputInstance.Show();
             this.Hide();
             Output.outputInstance.Activate();
